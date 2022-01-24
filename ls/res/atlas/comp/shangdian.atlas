@@ -1,1 +1,1 @@
-{"frames":{"ygm.png":{"frame":{"h":48,"idx":0,"w":144,"x":0,"y":0},"rotated":false,"sourceSize":{"h":48,"w":144},"spriteSourceSize":{"h":48,"w":144,"x":0,"y":0},"trimmed":false}},"meta":{"image":"shangdian.png","prefix":"https://cdn.jsdelivr.net/gh/post-get/static/ls/comp/shangdian/"}}
+{"frames":{"ygm.png":{"frame":{"h":48,"idx":0,"w":144,"x":0,"y":0},"rotated":false,"sourceSize":{"h":48,"w":144},"spriteSourceSize":{"h":48,"w":144,"x":0,"y":0},"trimmed":false}},"meta":{"image":"shangdian.png","prefix":"comp/shangdian/"}}
