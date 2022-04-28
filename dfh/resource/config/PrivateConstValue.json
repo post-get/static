@@ -1,0 +1,330 @@
+﻿{
+  "Root": {
+    "Personal": {
+      "Int32Data": [
+        {
+          "Name": "AppID",
+          "Value": "89640"
+        },
+        {
+          "Name": "QQBrowserAppID",
+          "Value": "329"
+        },
+        {
+          "Name": "DefaultServerID",
+          "Value": "0"
+        },
+        {
+          "Name": "DefaultUserNameType",
+          "Value": "1"
+        },
+        {
+          "Name": "LoginType",
+          "Value": "0"
+        },
+        {
+          "Name": "ClientGroupServerNum",
+          "Value": "20"
+        },
+        {
+          "Name": "IsShowAgreeMent_Self",
+          "Value": "0"
+        },
+        {
+          "Name": "IsShowAgreeMent_Online",
+          "Value": "0"
+        }
+      ],
+      "StringData": [
+        {
+          "Name": "AppKey",
+          "Value": ""
+        },
+        {
+          "Name": "QQBrowserAppKey",
+          "Value": ""
+        },
+        {
+          "Name": "GameName",
+          "Value": "我是大富翁"
+        },
+        {
+          "Name": "PHPServer_dev",
+          "Value": "http://152.136.96.146/dfh/php"
+        },
+        {
+          "Name": "W8_dev",
+          "Value": "https://clgq.04wan.com/php"
+        },
+        {
+          "Name": "KuDai_dev",
+          "Value": "https://clgq.04wan.com/php/loginphp/html"
+        },
+        {
+          "Name": "UserInfoUrl",
+          "Value": "/games/api.php?token={0}&time={1}&appId={2}&sign={3}&action={4}&serverId={5}"
+        },
+        {
+          "Name": "SelectServerUrl",
+          "Value": "/games/api.php?time={0}&appId={1}&sign={2}&action={3}&serverId={4}&id={5}"
+        },
+        {
+          "Name": "UpdateUserInfoUrl",
+          "Value": "/games/api.php?time={0}&appId={1}&sign={2}&action={3}&id={4}"
+        },
+        {
+          "Name": "GetNoticeUrl",
+          "Value": "/getNotice.php"
+        },
+        {
+          "Name": "LoginServerUrl",
+          "Value": "/onLogin.php?account={0}&serverID={1}"
+        },
+        {
+          "Name": "RecordPointUrl",
+          "Value": "/recordPoint.php?account={0}&serverID={1}&point={2}"
+        },
+        {
+          "Name": "ServerListUrl",
+          "Value": "/getServerList.php?account={0}"
+        },
+        {
+          "Name": "ServerListUrl_rt",
+          "Value": "/getServerList2.php?account={0}"
+        },
+        {
+          "Name": "GiftKeyUrl",
+          "Value": "/login/getgift.php?key={0}&playerName={1}&serverID={2}"
+        },
+        {
+          "Name": "PublishURL_def",
+          "Value": "http://scsgj.egret-labs.org/xysz/index.html"
+        },
+        {
+          "Name": "TestingURL_def",
+          "Value": "http://scsgj.egret-labs.org/xysz/newclienttest.html"
+        },
+        {
+          "Name": "PublishURL_10016",
+          "Value": "http://scsgj.egret-labs.org/xysz_1758/index.html"
+        },
+        {
+          "Name": "TestingURL_10016",
+          "Value": "http://scsgj.egret-labs.org/xysz_1758/newclienttest.html"
+        },
+        {
+          "Name": "PublishURL_18255",
+          "Value": "http://scsgj.egret-labs.org/xysz_awy/index.html"
+        },
+        {
+          "Name": "TestingURL_18255",
+          "Value": "http://scsgj.egret-labs.org/xysz_awy/newclienttest.html"
+        },
+        {
+          "Name": "PublishURL_QQBrowser",
+          "Value": "http://1003678.1251278653.cdn.myqcloud.com/1251278653/1003678/cs/release.html"
+        },
+        {
+          "Name": "TestingURL_QQBrowser",
+          "Value": "http://1003678.1251278653.cdn.myqcloud.com/1251278653/1003678/cs/newclienttest.html"
+        },
+        {
+          "Name": "PublishURL_w8",
+          "Value": "http://1003678.1251278653.cdn.myqcloud.com/1251278653/1003678/w8/index_wanba.html"
+        },
+        {
+          "Name": "TestingURL_w8",
+          "Value": "http://1003678.1251278653.cdn.myqcloud.com/1251278653/1003678/w8/newclienttest.html"
+        },
+        {
+          "Name": "LoginServerUrl_android",
+          "Value": "http://119.29.18.85:8000/onLogin.php?account={0}&serverID={1}"
+        },
+        {
+          "Name": "LoginCheckUrl_android",
+          "Value": "http://119.29.18.85:3000/channel/game_2_1/game?id={0}&channelId={1}&channelUserId={2}&userName={3}&token={4}&productCode={5}"
+        },
+        {
+          "Name": "UserInfoUrl_android",
+          "Value": "http://119.29.18.85:3000/api/api.php?token={0}&time={1}&appId={2}&sign={3}&action={4}&serverId={5}"
+        },
+        {
+          "Name": "SelectServerUrl_android",
+          "Value": "http://119.29.18.85:3000/api/api.php?time={0}&appId={1}&sign={2}&action={3}&serverId={4}&id={5}"
+        },
+        {
+          "Name": "LoginServerUrl_ios",
+          "Value": "http://27.115.103.14:8000/login/onLogin.php?account={0}&serverID={1}"
+        },
+        {
+          "Name": "LoginCheckUrl_ios",
+          "Value": "http://27.115.103.14:3000/channel/3/1/game?channelUserId={0}&userName={1}&userPic={2}&token={3}&channelName={4}"
+        },
+        {
+          "Name": "UserInfoUrl_ios",
+          "Value": "http://27.115.103.14:3000/api/api.php?token={0}&time={1}&appId={2}&sign={3}&action={4}&serverId={5}"
+        },
+        {
+          "Name": "SelectServerUrl_ios",
+          "Value": "http://27.115.103.14:3000/api/api.php?time={0}&appId={1}&sign={2}&action={3}&serverId={4}&id={5}"
+        },
+        {
+          "Name": "PayServerUrl_ios",
+          "Value": "http://27.115.103.14:3000/channel/3/1/pay"
+        },
+        {
+          "Name": "PayIdentifiersPrev_ios",
+          "Value": "com.xidea.xiyoushenzhuan.demo."
+        },
+        {
+          "Name": "DataEyesAppId_def",
+          "Value": "CE95B48E16EC38D4E48AB5F96DE6271C6"
+        },
+        {
+          "Name": "DataEyesAppId_android",
+          "Value": "CB9C927DC99329E40E9176DB27DCB1F8A"
+        },
+        {
+          "Name": "EgretStatisticsXyszAppId",
+          "Value": "5333554158576B3D"
+        },
+        {
+          "Name": "EgretStatisticsChuanshenAppId",
+          "Value": "51483450"
+        }
+      ]
+    },
+    "WordGlobalization": {
+      "StringData": [
+        {
+          "Name": "noSupportWebSocket_android",
+          "Value": "您的安卓系统版本低于4.4，请尝试升级系统或更换浏览器"
+        },
+        {
+          "Name": "noSupportWebSocket_default",
+          "Value": "您的手机系统版本过低，请尝试升级系统或更换浏览器"
+        },
+        {
+          "Name": "GlobalLeagueStatic",
+          "Value": "输入公会名"
+        },
+        {
+          "Name": "Duihuan",
+          "Value": "兑换"
+        },
+        {
+          "Name": "strPay",
+          "Value": "充值"
+        },
+        {
+          "Name": "AgreementTitle",
+          "Value": "游戏提示"
+        },
+        {
+          "Name": "ChangeAccount",
+          "Value": "切换账号"
+        },
+        {
+          "Name": "ChangeAccountConfirm",
+          "Value": "您是否要切换账号？"
+        },
+        {
+          "Name": "Account",
+          "Value": "账号"
+        },
+        {
+          "Name": "Password",
+          "Value": "密码"
+        },
+        {
+          "Name": "ChooseServer",
+          "Value": "选择服务器"
+        },
+        {
+          "Name": "LoginGamePleaseWait",
+          "Value": "正在进入游戏，请稍候！"
+        },
+        {
+          "Name": "TestLogin",
+          "Value": "模拟登录"
+        },
+        {
+          "Name": "strRegion",
+          "Value": "区"
+        },
+        {
+          "Name": "TestServer",
+          "Value": "测试服"
+        },
+        {
+          "Name": "QQLoginLoading",
+          "Value": "正在授权..."
+        },
+        {
+          "Name": "LoadingMediator",
+          "Value": "首次加载时间稍长，请耐心等待\n如长时间未响应，请刷新后再试"
+        },
+        {
+          "Name": "ServerPauseTips",
+          "Value": "服务器维护中"
+        },
+        {
+          "Name": "Common",
+          "Value": "通用"
+        },
+        {
+          "Name": "Human",
+          "Value": "战士"
+        },
+        {
+          "Name": "Immortal",
+          "Value": "法师"
+        },
+        {
+          "Name": "Demon",
+          "Value": "道士"
+        },
+        {
+          "Name": "checkLogin",
+          "Value": "正在检查登陆"
+        },
+        {
+          "Name": "requestLogin",
+          "Value": "正在请求平台登陆"
+        },
+        {
+          "Name": "requestUserInfo",
+          "Value": "正在获取用户信息"
+        },
+        {
+          "Name": "requstLoginServerInfo",
+          "Value": "正在获取服务器列表"
+        },
+        {
+          "Name": "loadGameConfig",
+          "Value": "增加执行，可减少商战人脉消耗"
+        },
+        {
+          "Name": "parseGameConfig",
+          "Value": "增加实力，可解锁不同女友"
+        },
+        {
+          "Name": "connectServer",
+          "Value": "正在连接..."
+        }
+      ]
+    },
+    "Functional": {
+      "Int32Data": [
+        {
+          "Name": "ShowFPS",
+          "Value": "0"
+        },
+        {
+          "Name": "ShowInput",
+          "Value": "0"
+        }
+      ]
+    }
+  }
+}
