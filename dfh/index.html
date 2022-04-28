@@ -1,0 +1,218 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>我是大富翁</title>
+	<meta content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"
+		  name="viewport"/>
+	<meta content="yes" name="apple-mobile-web-app-capable"/>
+	<meta content="true" name="full-screen"/>
+	<meta content="portrait" name="screen-orientation"/>
+	<meta content="true" name="x5-fullscreen"/>
+	<meta content="true" name="360-fullscreen"/>
+	<style>
+		html, body {
+			-ms-touch-action: none;
+			background: url(./fix_bg.png);
+			background-position: 50% 50%;
+			background-repeat: repeat;
+			padding: 0;
+			border: 0;
+			margin: 0;
+			height: 100%;
+			color: #FFFFFF;
+		}
+
+		#loadingText {
+			z-index: 1000;
+			position: absolute;
+			text-align: center;
+			top: 70%;
+			width: 100%;
+		}
+
+		.egret-player canvas {
+			background-color: #000;
+		}
+
+		/*头部弹窗*/
+		.header-tc {
+			max-width: 770px;
+			display: none;
+			position: fixed;
+			top: 0;
+			left: 50%;
+			margin-left: -385px;
+			right: 0;
+			bottom: 0;
+			z-index: 5;
+		}
+
+		.header-tc .tc-wrap {
+			max-width: 770px;
+			position: fixed;
+			top: 0;
+			left: 50%;
+			margin-left: -385px;
+			right: 0;
+			bottom: 0;
+			z-index: 6;
+			background: rgba(0, 0, 0, 0.5);
+		}
+
+		.header-tc .tc-main {
+			position: fixed;
+			left: 50%;
+			margin-left: -4rem;
+			top: 20%;
+			z-index: 7;
+			width: 8rem;
+			height: auto;
+			background: #fff;
+			padding-top: 0.53333333rem;
+			text-align: center;
+		}
+
+		.header-tc .tc-main .ewm {
+			width: 5.86666667rem;
+			height: 5.6rem;
+			background: url("resource/assets/imges/ewm_bg.png");
+			background-size: 100% 100%;
+			margin: 0 auto;
+			margin-bottom: 0.53333333rem;
+			padding-top: 1px;
+		}
+
+		.header-tc .tc-main .ewm .ewm-img {
+			width: 5.33333333rem;
+			height: 4.8rem;
+			margin: 0.4rem auto;
+		}
+
+		.header-tc .tc-main .txt {
+			width: 7.73333333rem;
+			margin: 0 auto;
+			margin-bottom: 0.26666667rem;
+		}
+
+		.header-tc .tc-main .txt .icon {
+			width: 1.6rem;
+			height: 1.6rem;
+			float: left;
+		}
+
+		.header-tc .tc-main .txt p {
+			font-size: 0.4rem;
+			color: #a1a1a1;
+			float: left;
+			margin-top: 0.4rem;
+			margin-left: 0.26666667rem;
+			width: 5.33333333rem;
+		}
+
+		.header-tc .tc-main .txt p span {
+			color: #23b59e;
+		}
+
+		.header-tc .tc-main .txt:after {
+			clear: both;
+			content: '.';
+			display: block;
+			width: 0;
+			height: 0;
+			visibility: hidden;
+		}
+
+
+	</style>
+	<script>
+		//var gResRoot = "https://cdn.wsdfw.haotianhuyu.com/resource/";
+		var gResRoot = "resource/";
+		var gLoginType = 0;
+		var isBanShuFu = false;
+	</script>
+
+	<!--这个标签为通过egret提供的第三方库的方式生成的 javascript 文件-->
+	<!--modules_files_start-->
+	<script egret="lib" src="libs/modules/egret/egret.min.js"></script>
+	<script egret="lib" src="libs/modules/egret/egret.web.min.js"></script>
+	<script egret="lib" src="libs/modules/game/game.min.js"></script>
+	<script egret="lib" src="libs/modules/game/game.web.min.js"></script>
+	<script egret="lib" src="libs/modules/res/res.min.js"></script>
+	<script egret="lib" src="libs/modules/gui/gui.min.js"></script>
+	<script egret="lib" src="libs/modules/socket/socket.min.js"></script>
+	<script egret="lib" src="libs/modules/tween/tween.min.js"></script>
+	<!--modules_files_end-->
+
+	<!--这个标签为不通过egret提供的第三方库的方式使用的 javascript 文件，请将这些文件放在libs下，但不要放在modules下面。-->
+	<!--other_libs_files_start-->
+	<script egret="lib" src="libs/greensock/greensock.min.js"></script>
+	<script egret="lib" src="libs/jszip/jszip.min.js"></script>
+	<script egret="lib" src="libs/nest/nest.js"></script>
+	<script egret="lib" src="libs/particle/particle.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<!--<script type="text/javascript" src="http://h5.sdk.quicksdk.net/static/lib/libQuickSDK.js"></script>
+	<script egret="lib" src="libs/bitsdk/quick.js"></script>-->
+	<script egret="lib" src="libs/bitsdk/bitutils.js"></script>
+	<script egret="lib" src="libs/bitsdk/kudai.js"></script>
+	<script egret="lib" src="libs/bitsdk/w8.js"></script>
+	<!--other_libs_files_end-->
+
+	<!--这个标签会被替换为项目中所有的 javascript 文件-->
+	<!--game_files_start-->
+	<script src="main.min.js"></script>
+	<!--game_files_end-->
+</head>
+<body>
+<div id="preloading"></div>
+<div id="loadingText"></div>
+<div class="egret-player" data-content-height="1334"
+	 data-content-width="750"
+	 data-entry-class="Main"
+	 data-frame-rate="60"
+	 data-log-filter=""
+	 data-multi-fingered="2"
+	 data-orientation="auto"
+	 data-resolution-mode="retina"
+	 data-scale-mode="showAll"
+	 data-show-fps="false"
+	 data-show-fps-style="x:0,y:0,size:30,textColor:0x00c200,bgAlpha:0.9" data-show-log="false"
+	 data-show-paint-rect="false" style="margin: auto;width: 100%;height: 100%;">
+</div>
+<!--头部弹窗-->
+<div class="header-tc" id="followDiv" onclick="clickFollow()">
+	<div class="tc-wrap"></div>
+	<div class="tc-main">
+		<div class="ewm"><img alt="" class="ewm-img" src="resource/assets/imges/ewm.png"></div>
+		<div class="txt">
+			<img alt="" class="icon" src="resource/assets/imges/icon.png">
+			<p>长按识别二维码，联系我们</p>
+		</div>
+	</div>
+</div>
+<script>
+	function clickFollow() {
+		$("#followDiv").hide();
+	}
+</script>
+<script>
+	egret.runEgret({renderMode: "webgl"});
+
+	//egret.runEgret({ renderMode: "canvas", audioType: 0 });
+
+	function preload_hide() {
+		document.getElementById("preloading").style.display = "none";
+		document.getElementById("loadingText").style.display = "none";
+	}
+
+	function preload_setProgress(current, total) {
+		var loadingText = document.getElementById("loadingText");
+		var percent = 0;
+		if (total > 0) {
+			percent = Math.floor((current / total) * 100)
+		}
+		loadingText.innerText = "" + percent + "%";
+	}
+</script>
+</body>
+</html>
