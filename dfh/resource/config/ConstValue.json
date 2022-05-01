@@ -1,0 +1,4108 @@
+{
+  "Root": {
+    "System": {
+      "Int32Data": [
+        {
+          "Name": "TimeScale",
+          "Value": "1"
+        },
+        {
+          "Name": "ApplicationUpdateSpan",
+          "Value": "10"
+        },
+        {
+          "Name": "DBOStreamSize",
+          "Value": "4096"
+        },
+        {
+          "Name": "OwnClientOStreamSize",
+          "Value": "1024"
+        },
+        {
+          "Name": "AllClientOStreamSize",
+          "Value": "128"
+        },
+        {
+          "Name": "LogLevel",
+          "Value": "2"
+        },
+        {
+          "Name": "AoIPropertyUpdateSpan",
+          "Value": "30"
+        },
+        {
+          "Name": "PingTimeOut",
+          "Value": "30000"
+        },
+        {
+          "Name": "MaxOnLinePlayer",
+          "Value": "2000"
+        },
+        {
+          "Name": "Kill100MonsterTime",
+          "Value": "10000"
+        },
+        {
+          "Name": "Kill100MonsterTime70",
+          "Value": "8000"
+        },
+        {
+          "Name": "CheatCheckKillCount",
+          "Value": "20"
+        },
+        {
+          "Name": "MaxCheckFailed",
+          "Value": "3"
+        },
+        {
+          "Name": "CheatDisableTime",
+          "Value": "360000"
+        },
+        {
+          "Name": "OpenEnergyTimer",
+          "Value": "1"
+        },
+        {
+          "Name": "FightSystemTime",
+          "Value": "7560100"
+        },
+        {
+          "Name": "MaxNetSerialNumDif",
+          "Value": "1"
+        },
+        {
+          "Name": "OpenGuideLevel",
+          "Value": "14"
+        },
+        {
+          "Name": "CheckGameRecordName",
+          "Value": "1"
+        },
+        {
+          "Name": "RestSpellsCoolDowns",
+          "Value": "40"
+        },
+        {
+          "Name": "FightLogicStepTime",
+          "Value": "10"
+        },
+        {
+          "Name": "RoamDistance",
+          "Value": "480"
+        },
+        {
+          "Name": "AdjustWidth",
+          "Value": "80"
+        },
+        {
+          "Name": "AdjustHeight",
+          "Value": "240"
+        },
+        {
+          "Name": "MaxJinBi",
+          "Value": "2100000000"
+        }
+      ],
+      "FloatData": {
+        "Name": "CheatCheckKillMonsterAvgTimeScale",
+        "Value": "0.3"
+      },
+      "BoolData": [
+        {
+          "Name": "OpenNetSerialNumCheck",
+          "Value": "false"
+        },
+        {
+          "Name": "OpenSkillFightCal",
+          "Value": "true"
+        }
+      ],
+      "Int32ListData": {
+        "Name": "BossPromptMap",
+        "Value": [
+          "1",
+          "20"
+        ]
+      }
+    },
+    "Game": {
+      "Int32Data": [
+        {
+          "Name": "LogicResetTime",
+          "Value": "1800000"
+        },
+        {
+          "Name": "AutoSaveResetTime",
+          "Value": "500"
+        }
+      ]
+    },
+    "OpenModule": {
+      "Int32Data": [
+        {
+          "Name": "OpenArenaModule",
+          "Value": "40"
+        },
+        {
+          "Name": "OpenPvpModule",
+          "Value": "15"
+        },
+        {
+          "Name": "OpenEquipStrengModule",
+          "Value": "5"
+        },
+        {
+          "Name": "OpenEquipLevelUpModule",
+          "Value": "45"
+        },
+        {
+          "Name": "OpenEquipMoasicModule",
+          "Value": "45"
+        },
+        {
+          "Name": "OpenSpaceBossModule",
+          "Value": "25"
+        },
+        {
+          "Name": "OpenRealmSpaceModule",
+          "Value": "35"
+        },
+        {
+          "Name": "OpenSpaceEquipModule",
+          "Value": "10"
+        },
+        {
+          "Name": "OpenEquipDisgraModule",
+          "Value": "35"
+        },
+        {
+          "Name": "OpenSpellModule",
+          "Value": "3"
+        },
+        {
+          "Name": "OpenWingModule",
+          "Value": "20"
+        },
+        {
+          "Name": "OpenChatModule",
+          "Value": "1"
+        },
+        {
+          "Name": "OpenMoshenModule",
+          "Value": "20"
+        },
+        {
+          "Name": "OpenGuildModule",
+          "Value": "6"
+        },
+        {
+          "Name": "OpenRedEnvelopePresentNormalModule",
+          "Value": "30"
+        },
+        {
+          "Name": "OpenRedEnvelopePresentGuildModule",
+          "Value": "30"
+        },
+        {
+          "Name": "OpenRedEnvelopeLootModule",
+          "Value": "30"
+        },
+        {
+          "Name": "OpenEndlessHoleModule",
+          "Value": "45"
+        },
+        {
+          "Name": "OpenAddExpBuff",
+          "Value": "30"
+        },
+        {
+          "Name": "OpenLuckyDraw",
+          "Value": "40"
+        },
+        {
+          "Name": "OpenPet",
+          "Value": "11"
+        },
+        {
+          "Name": "OpenEquipResolve",
+          "Value": "5"
+        },
+        {
+          "Name": "IsShowOpenModuleEffect",
+          "Value": "1"
+        }
+      ]
+    },
+    "CurrentMaxLevel": {
+      "Int32Data": [
+        {
+          "Name": "SpellMaxLevel",
+          "Value": "200"
+        },
+        {
+          "Name": "SlotLevelUpMax",
+          "Value": "50"
+        },
+        {
+          "Name": "PlayerMaxLevel",
+          "Value": "240"
+        },
+        {
+          "Name": "StrengthMaxLevel",
+          "Value": "240"
+        },
+        {
+          "Name": "CameoEvolutionNum",
+          "Value": "8"
+        },
+        {
+          "Name": "CameoEvolutionMaxLevel",
+          "Value": "80"
+        },
+        {
+          "Name": "RingBreakMaxLevel",
+          "Value": "10"
+        },
+        {
+          "Name": "RingStrengLevelScale",
+          "Value": "5"
+        }
+      ]
+    },
+    "Hero": {
+      "Int32Data": [
+        {
+          "Name": "MaxHeroCount",
+          "Value": "3"
+        },
+        {
+          "Name": "Job2OpenLevel",
+          "Value": "60"
+        },
+        {
+          "Name": "Job2OpenNeedJinbi",
+          "Value": "0"
+        },
+        {
+          "Name": "Job2OpenNeedYuanbao",
+          "Value": "0"
+        },
+        {
+          "Name": "Job2OpenNeedVIP",
+          "Value": "2"
+        },
+        {
+          "Name": "Job3OpenLevel",
+          "Value": "90"
+        },
+        {
+          "Name": "Job3OpenNeedJinbi",
+          "Value": "0"
+        },
+        {
+          "Name": "Job3OpenNeedYuanbao",
+          "Value": "0"
+        },
+        {
+          "Name": "Job3OpenNeedVIP",
+          "Value": "5"
+        },
+        {
+          "Name": "HeroMoveSpeed",
+          "Value": "50"
+        }
+      ]
+    },
+    "Spell": {
+      "Int32ListData": [
+        {
+          "Name": "OpenSpelReqlLevelList",
+          "Value": [
+            "1",
+            "10",
+            "15",
+            "20",
+            "25"
+          ]
+        },
+        {
+          "Name": "SpellTimeMax",
+          "Value": [
+            "360000",
+            "360000",
+            "360000",
+            "360000",
+            "360000"
+          ]
+        }
+      ],
+      "Int32Data": {
+        "Name": "SpellTimelPrice",
+        "Value": "30000"
+      }
+    },
+    "DayTask": {
+      "Int32ListData": [
+        {
+          "Name": "ActivityList",
+          "Value": [
+            "10",
+            "30",
+            "60",
+            "100",
+            "140"
+          ]
+        },
+        {
+          "Name": "RewardActivityList",
+          "Value": [
+            "30001",
+            "30002",
+            "30003"
+          ]
+        }
+      ],
+      "Int32Data": {
+        "Name": "DayTasksStatusUpdataTime",
+        "Value": "0"
+      }
+    },
+    "Space": {
+      "Int32Data": [
+        {
+          "Name": "BossSpaceMaxEnterCount",
+          "Value": "6"
+        },
+        {
+          "Name": "BossSpaceEnterReqItemID",
+          "Value": "8"
+        },
+        {
+          "Name": "BossSpaceEnterReqItemCount",
+          "Value": "1"
+        },
+        {
+          "Name": "BossSpaceCostYuanBao",
+          "Value": "30"
+        },
+        {
+          "Name": "EquipSpaceMaxEnterCount",
+          "Value": "6"
+        },
+        {
+          "Name": "EquipSpaceEnterReqItemID",
+          "Value": "7"
+        },
+        {
+          "Name": "EquipSpaceEnterReqItemCount",
+          "Value": "1"
+        },
+        {
+          "Name": "EquipSpaceSweepItemID",
+          "Value": "38"
+        },
+        {
+          "Name": "EquipSpaceSweepItemCount",
+          "Value": "1"
+        },
+        {
+          "Name": "EliteEquipSpaceMaxEnterCount",
+          "Value": "5"
+        },
+        {
+          "Name": "EliteEquipSpaceEnterReqItemID",
+          "Value": "7"
+        },
+        {
+          "Name": "EliteEquipSpaceEnterReqItemCount",
+          "Value": "2"
+        },
+        {
+          "Name": "EliteEquipSpaceSweepReqStar",
+          "Value": "3"
+        },
+        {
+          "Name": "EliteEquipSpaceSweepReqItemID1",
+          "Value": "7"
+        },
+        {
+          "Name": "EliteEquipSpaceSweepReqItemCount1",
+          "Value": "2"
+        },
+        {
+          "Name": "EliteEquipSpaceSweepReqItemID2",
+          "Value": "38"
+        },
+        {
+          "Name": "EliteEquipSpaceSweepReqItemCount2",
+          "Value": "1"
+        },
+        {
+          "Name": "EliteBossSpaceMaxEnterCount",
+          "Value": "2"
+        },
+        {
+          "Name": "EliteBossSpaceEnterReqItemID",
+          "Value": "54"
+        },
+        {
+          "Name": "EliteBossSpaceEnterReqItemCount",
+          "Value": "1"
+        },
+        {
+          "Name": "FirstRealmSpace",
+          "Value": "3001"
+        },
+        {
+          "Name": "RealmSpaceMaxEnterCount",
+          "Value": "6"
+        },
+        {
+          "Name": "RealmSpaceEnterReqItemID",
+          "Value": "2"
+        },
+        {
+          "Name": "RealmSpaceEnterReqItemCount",
+          "Value": "1"
+        },
+        {
+          "Name": "RealmSpaceFirstNeedYuanBao",
+          "Value": "10"
+        },
+        {
+          "Name": "RealmSpaceSweepItemID",
+          "Value": "37"
+        },
+        {
+          "Name": "RealmSpaceSweepItemCount",
+          "Value": "1"
+        },
+        {
+          "Name": "ClearSpaceTimeSpan",
+          "Value": "90000"
+        },
+        {
+          "Name": "OffLineKillMonsterTimeSpan",
+          "Value": "1000"
+        },
+        {
+          "Name": "MonsterBornRequestInterval",
+          "Value": "100"
+        },
+        {
+          "Name": "SpaceMosterKindsNum",
+          "Value": "4"
+        },
+        {
+          "Name": "PoorNetTime",
+          "Value": "200"
+        },
+        {
+          "Name": "OpenEliteEquipSpace",
+          "Value": "1"
+        },
+        {
+          "Name": "OpenEliteBossSpace",
+          "Value": "1"
+        }
+      ],
+      "Int32ListData": [
+        {
+          "Name": "BossSpaceNeedYuanBaoList",
+          "Value": [
+            "50",
+            "100",
+            "100",
+            "150",
+            "150",
+            "150",
+            "200",
+            "200"
+          ]
+        },
+        {
+          "Name": "EquipSpaceNeedYuanBaoList",
+          "Value": [
+            "20",
+            "20",
+            "50",
+            "50",
+            "100",
+            "100",
+            "100",
+            "100"
+          ]
+        },
+        {
+          "Name": "VipBuyEliteEquipSpaceCostYuanbaoList",
+          "Value": [
+            "20",
+            "30",
+            "50",
+            "80",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100"
+          ]
+        },
+        {
+          "Name": "VipBuyEliteBossSpaceCostYuanbaoList",
+          "Value": [
+            "50",
+            "70",
+            "100",
+            "150",
+            "200",
+            "250",
+            "300",
+            "400",
+            "400",
+            "400",
+            "400"
+          ]
+        },
+        {
+          "Name": "RealmSpaceNeedYuanBaoList",
+          "Value": [
+            "50",
+            "50",
+            "100",
+            "100",
+            "150",
+            "150",
+            "200",
+            "200"
+          ]
+        }
+      ],
+      "FloatData": [
+        {
+          "Name": "RealmSpacePriceCoefficient",
+          "Value": "0.2"
+        },
+        {
+          "Name": "OffLineKillTimeCorrectionFactor",
+          "Value": "1.5"
+        }
+      ]
+    },
+    "Rebirth": {
+      "Int32Data": {
+        "Name": "RebirthMaxLevel",
+        "Value": "90"
+      }
+    },
+    "Item": {
+      "Int32Data": [
+        {
+          "Name": "NameChangeItemID",
+          "Value": "39"
+        },
+        {
+          "Name": "ResolveLimit",
+          "Value": "30"
+        },
+        {
+          "Name": "ResolveProtect",
+          "Value": "5"
+        },
+        {
+          "Name": "SlotStrenReqItemID",
+          "Value": "18"
+        },
+        {
+          "Name": "SlotLevelUpReqItemID",
+          "Value": "19"
+        },
+        {
+          "Name": "RingSlotIdStart",
+          "Value": "8"
+        },
+        {
+          "Name": "RingSlotStrenReqItemID",
+          "Value": "28"
+        },
+        {
+          "Name": "RingSlotLevelUpReqItemID",
+          "Value": "29"
+        },
+        {
+          "Name": "EquipAdditionalScaleMax",
+          "Value": "1000"
+        },
+        {
+          "Name": "EquipAdditionalScaleUp",
+          "Value": "800"
+        },
+        {
+          "Name": "EquipAdditionalScaleDown",
+          "Value": "0"
+        },
+        {
+          "Name": "EquipSlotMax",
+          "Value": "150"
+        },
+        {
+          "Name": "ItemSlotMax",
+          "Value": "1000"
+        },
+        {
+          "Name": "ExtraBagSize",
+          "Value": "1200"
+        },
+        {
+          "Name": "SlotLevelAddProperty",
+          "Value": "5"
+        },
+        {
+          "Name": "RingSlotLevelAddProperty",
+          "Value": "10"
+        },
+        {
+          "Name": "RingSlotLevelAddPropertyCount",
+          "Value": "2"
+        },
+        {
+          "Name": "BuyContainerSize",
+          "Value": "10"
+        }
+      ],
+      "Int32ListData": [
+        {
+          "Name": "BuyContainerPrice",
+          "Value": [
+            "100",
+            "100",
+            "150",
+            "150",
+            "200",
+            "200",
+            "300",
+            "300",
+            "400",
+            "500",
+            "600",
+            "700",
+            "800",
+            "900",
+            "1000"
+          ]
+        },
+        {
+          "Name": "VipSlotSize",
+          "Value": [
+            "10",
+            "20",
+            "30",
+            "50",
+            "70",
+            "90",
+            "120",
+            "150",
+            "180",
+            "220",
+            "260",
+            "300",
+            "300",
+            "300",
+            "300"
+          ]
+        }
+      ],
+      "FloatListData": [
+        {
+          "Name": "ItemLevelUpColorScale",
+          "Value": [
+            "1",
+            "1.2",
+            "1.56",
+            "2.184",
+            "3.0576",
+            "4.28064",
+            "4.28064"
+          ]
+        },
+        {
+          "Name": "ItemLevelUpLevelScale",
+          "Value": [
+            "0.0001",
+            "0.01",
+            "0.25",
+            "0.5",
+            "0.75",
+            "1",
+            "1.25",
+            "1.5",
+            "1.75",
+            "2",
+            "2.25",
+            "2.5",
+            "2.75",
+            "3",
+            "3.25",
+            "3.5",
+            "3.75",
+            "4",
+            "4.25",
+            "4.5",
+            "4.75",
+            "5.0",
+            "5.25",
+            "5.5",
+            "5.75",
+            "6.0"
+          ]
+        }
+      ]
+    },
+    "Arena": {
+      "Int32Data": [
+        {
+          "Name": "ArenaR5Multiple",
+          "Value": "10001"
+        },
+        {
+          "Name": "OpponentNum",
+          "Value": "3"
+        },
+        {
+          "Name": "ArenaSendRankRewardTime",
+          "Value": "7560100"
+        },
+        {
+          "Name": "ArenaBuyCountYuanBaoStart",
+          "Value": "20"
+        },
+        {
+          "Name": "ArenaBuyCountYuanBaoAdd",
+          "Value": "30"
+        },
+        {
+          "Name": "ArenaBuyCountMaxTimes",
+          "Value": "30"
+        },
+        {
+          "Name": "ArenaFreeFightCount",
+          "Value": "10"
+        },
+        {
+          "Name": "ArenaFightCoolDownTime",
+          "Value": "6000"
+        },
+        {
+          "Name": "ArenaClearCoolDownYuanBao",
+          "Value": "10"
+        },
+        {
+          "Name": "ArenaPlayerWinGainShengWang",
+          "Value": "150"
+        },
+        {
+          "Name": "ArenaPlayerLoseGainShengWang",
+          "Value": "60"
+        },
+        {
+          "Name": "ArenaGainResourceBase",
+          "Value": "80000"
+        },
+        {
+          "Name": "ArenaGainResourceExponentPerLevel",
+          "Value": "10508"
+        },
+        {
+          "Name": "ArenaPlayerWinGainJinbiRate",
+          "Value": "10000"
+        },
+        {
+          "Name": "ArenaPlayerLoseGainJinbiRate",
+          "Value": "5000"
+        }
+      ],
+      "FloatListData": [
+        {
+          "Name": "ArenaMultiple",
+          "Value": [
+            "0.3",
+            "0.5",
+            "0.9",
+            "0.9999"
+          ]
+        },
+        {
+          "Name": "FightPowerRate",
+          "Value": [
+            "0.6",
+            "0.65",
+            "0.7",
+            "0.75",
+            "0.8"
+          ]
+        },
+        {
+          "Name": "PVEFightPowerRate",
+          "Value": [
+            "0.1",
+            "0.1",
+            "0.1",
+            "0.1",
+            "0.1"
+          ]
+        }
+      ],
+      "Int32ListData": [
+        {
+          "Name": "FightPowerLowerLimit",
+          "Value": [
+            "0",
+            "10000",
+            "100000",
+            "500000",
+            "1000000"
+          ]
+        },
+        {
+          "Name": "PVEFightPowerLowerLimit",
+          "Value": [
+            "0",
+            "10000",
+            "100000",
+            "500000",
+            "1000000"
+          ]
+        }
+      ]
+    },
+    "PVP": {
+      "Int32Data": [
+        {
+          "Name": "PVPResetCupWeekday",
+          "Value": "1"
+        },
+        {
+          "Name": "PVPSendRankRewardTime",
+          "Value": "7560100"
+        },
+        {
+          "Name": "PVPMaxOpponentNum",
+          "Value": "3"
+        },
+        {
+          "Name": "PVPGenerateOpponentTime",
+          "Value": "30000"
+        },
+        {
+          "Name": "PVPGenerateOpponentSecondTime",
+          "Value": "18000"
+        },
+        {
+          "Name": "PVPProtectionOpponentTime",
+          "Value": "72000"
+        },
+        {
+          "Name": "PVPLockOpponentTime",
+          "Value": "360000"
+        },
+        {
+          "Name": "PVPPKSubTime",
+          "Value": "36000"
+        },
+        {
+          "Name": "PVPMaxOffLineTime",
+          "Value": "90000"
+        },
+        {
+          "Name": "PVPMinOffLineTime",
+          "Value": "30000"
+        },
+        {
+          "Name": "PVPMinRandomOffLineTime",
+          "Value": "9000"
+        },
+        {
+          "Name": "PVPDefaultCup",
+          "Value": "0"
+        },
+        {
+          "Name": "PVPCupStep",
+          "Value": "1200"
+        },
+        {
+          "Name": "PVPCupKConst",
+          "Value": "60"
+        },
+        {
+          "Name": "PVPCupBase",
+          "Value": "3"
+        },
+        {
+          "Name": "PvpSpaceFirstNeedYuanBao",
+          "Value": "15"
+        },
+        {
+          "Name": "PvpSpaceAddYuanBao",
+          "Value": "0"
+        },
+        {
+          "Name": "PvpSpaceMaxBuyCount",
+          "Value": "10"
+        },
+        {
+          "Name": "PvpRankTotal",
+          "Value": "30"
+        }
+      ],
+      "FloatListData": {
+        "Name": "PVPPKValueNameColorList",
+        "Value": [
+          "0.05",
+          "0.075",
+          "0.10"
+        ]
+      },
+      "Int32ListData": [
+        {
+          "Name": "PVPPKValueNeedList",
+          "Value": [
+            "0",
+            "55",
+            "100"
+          ]
+        },
+        {
+          "Name": "PVPRankRawardList",
+          "Value": [
+            "19",
+            "19",
+            "19",
+            "19",
+            "19",
+            "19",
+            "19",
+            "19"
+          ]
+        }
+      ]
+    },
+    "Mall": {
+      "Int32Data": [
+        {
+          "Name": "FlushShopTime",
+          "Value": "1800000"
+        },
+        {
+          "Name": "ShopItemListNum",
+          "Value": "6"
+        },
+        {
+          "Name": "MibaoLevelStep",
+          "Value": "50"
+        },
+        {
+          "Name": "MultiMibaoItemCount",
+          "Value": "10"
+        },
+        {
+          "Name": "BaodiCount",
+          "Value": "10"
+        },
+        {
+          "Name": "JinbiMibaoConsume",
+          "Value": "1000"
+        },
+        {
+          "Name": "MultiJinbiMibaoConsume",
+          "Value": "9000"
+        },
+        {
+          "Name": "YuanbaoMibaoConsume",
+          "Value": "100"
+        },
+        {
+          "Name": "MultiYuanbaoMibaoConsume",
+          "Value": "900"
+        }
+      ]
+    },
+    "Checkin": {
+      "Int32Data": [
+        {
+          "Name": "BackCheckConsumeBase",
+          "Value": "20"
+        },
+        {
+          "Name": "BackCheckConsumeAdd",
+          "Value": "20"
+        },
+        {
+          "Name": "BackCheckConsumeMax",
+          "Value": "60"
+        }
+      ]
+    },
+    "Chat": {
+      "Int32Data": [
+        {
+          "Name": "PrivateChatInterval",
+          "Value": "500"
+        },
+        {
+          "Name": "WorldChatInterval",
+          "Value": "500"
+        },
+        {
+          "Name": "MaxMessageLength",
+          "Value": "60"
+        },
+        {
+          "Name": "BlackListNumber",
+          "Value": "100"
+        }
+      ]
+    },
+    "Mail": {
+      "Int32Data": [
+        {
+          "Name": "MaxMailCount",
+          "Value": "50"
+        },
+        {
+          "Name": "MaxMailContent",
+          "Value": "50"
+        },
+        {
+          "Name": "ItemMailExistsTime",
+          "Value": "43200000"
+        },
+        {
+          "Name": "NormalMailExistsTime",
+          "Value": "25920000"
+        },
+        {
+          "Name": "GlobalMailExistsTime",
+          "Value": "25920000"
+        }
+      ]
+    },
+    "Wing": {
+      "Int32Data": [
+        {
+          "Name": "WingStarMax",
+          "Value": "10"
+        },
+        {
+          "Name": "WingJinbiExp",
+          "Value": "10"
+        },
+        {
+          "Name": "WingYuanbaoConsume",
+          "Value": "5"
+        },
+        {
+          "Name": "WingYuanbaoExp",
+          "Value": "25"
+        },
+        {
+          "Name": "WingExpLuckTimes",
+          "Value": "2"
+        },
+        {
+          "Name": "WingExpYuanbaoLuckTimes",
+          "Value": "2"
+        },
+        {
+          "Name": "WingExpYuanbaoGoodLuckTimes",
+          "Value": "10"
+        },
+        {
+          "Name": "WingGrowSpecialCostID",
+          "Value": "30"
+        },
+        {
+          "Name": "WingGrowSpecialCostRatio",
+          "Value": "5"
+        }
+      ],
+      "Int32ListData": [
+        {
+          "Name": "WingJinbiConsume",
+          "Value": [
+            "20000",
+            "40000",
+            "80000",
+            "120000",
+            "160000",
+            "200000",
+            "260000",
+            "320000"
+          ]
+        },
+        {
+          "Name": "WingLuckProbability",
+          "Value": [
+            "9500",
+            "500",
+            "0"
+          ]
+        },
+        {
+          "Name": "WingYuanbaoLuckProbability",
+          "Value": [
+            "9350",
+            "500",
+            "150"
+          ]
+        }
+      ]
+    },
+    "Pet": {
+      "Int32Data": [
+        {
+          "Name": "PetTrainExp",
+          "Value": "10"
+        },
+        {
+          "Name": "PetTrainExpLuckTimes",
+          "Value": "2"
+        },
+        {
+          "Name": "PetSpecialTrainExp",
+          "Value": "25"
+        },
+        {
+          "Name": "PetSpecialTrainExpLuckTimes",
+          "Value": "2"
+        },
+        {
+          "Name": "PetSpecialTrainExpGoodLuckTimes",
+          "Value": "10"
+        }
+      ],
+      "Int32ListData": {
+        "Name": "PetSpecialTrainLuckProbability",
+        "Value": [
+          "9350",
+          "500",
+          "150"
+        ]
+      }
+    },
+    "PublicNotice": {
+      "Int32Data": [
+        {
+          "Name": "KillQualityMoshen",
+          "Value": "1"
+        },
+        {
+          "Name": "PvpRankUp",
+          "Value": "10"
+        }
+      ],
+      "Int32ListData": [
+        {
+          "Name": "SpaceLevelList",
+          "Value": [
+            "20",
+            "50",
+            "99"
+          ]
+        },
+        {
+          "Name": "CompoundItemList",
+          "Value": [
+            "30001",
+            "30101",
+            "30201",
+            "30301"
+          ]
+        },
+        {
+          "Name": "FightPowerList",
+          "Value": [
+            "10000",
+            "50000",
+            "100000",
+            "500000",
+            "1000000",
+            "1500000",
+            "2000000",
+            "3000000",
+            "5000000",
+            "10000000"
+          ]
+        },
+        {
+          "Name": "PublicNoteRankTypeList",
+          "Value": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"
+          ]
+        },
+        {
+          "Name": "FirstFightPowerList",
+          "Value": [
+            "10000",
+            "50000",
+            "100000",
+            "500000",
+            "1000000",
+            "1500000",
+            "2000000",
+            "3000000",
+            "5000000",
+            "10000000"
+          ]
+        },
+        {
+          "Name": "RibirthLvlList",
+          "Value": [
+            "10",
+            "20",
+            "30",
+            "40",
+            "50",
+            "60"
+          ]
+        },
+        {
+          "Name": "EquipStarUpList",
+          "Value": [
+            "10",
+            "20",
+            "30",
+            "40",
+            "45",
+            "50"
+          ]
+        },
+        {
+          "Name": "CameoEvolutionList",
+          "Value": [
+            "20",
+            "40",
+            "60",
+            "81"
+          ]
+        },
+        {
+          "Name": "WingLvlUpList",
+          "Value": [
+            "2",
+            "5",
+            "10",
+            "20"
+          ]
+        },
+        {
+          "Name": "MoShenKillList",
+          "Value": [
+            "50",
+            "100",
+            "200",
+            "250"
+          ]
+        },
+        {
+          "Name": "ArenaRankList",
+          "Value": [
+            "1",
+            "2",
+            "3",
+            "10",
+            "20",
+            "50"
+          ]
+        },
+        {
+          "Name": "VIPLevelList",
+          "Value": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+          ]
+        }
+      ]
+    },
+    "SpecialNotice": {
+      "Int32ListData": [
+        {
+          "Name": "SpaceLevelList_S",
+          "Value": [
+            "50",
+            "99"
+          ]
+        },
+        {
+          "Name": "CompoundItemList_S",
+          "Value": [
+            "30001",
+            "30101",
+            "30201",
+            "30301"
+          ]
+        },
+        {
+          "Name": "FightPowerList_S",
+          "Value": [
+            "1000000",
+            "1500000",
+            "2000000",
+            "3000000",
+            "5000000",
+            "10000000"
+          ]
+        },
+        {
+          "Name": "FirstFightPowerList_S",
+          "Value": [
+            "10000",
+            "50000",
+            "100000",
+            "500000",
+            "1000000",
+            "1500000",
+            "2000000",
+            "3000000",
+            "5000000",
+            "10000000"
+          ]
+        },
+        {
+          "Name": "RibirthLvlList_S",
+          "Value": [
+            "40",
+            "50",
+            "60"
+          ]
+        },
+        {
+          "Name": "EquipStarUpList_S",
+          "Value": [
+            "10",
+            "20",
+            "30",
+            "40",
+            "45",
+            "50"
+          ]
+        },
+        {
+          "Name": "CameoEvolutionList_S",
+          "Value": [
+            "20",
+            "40",
+            "60",
+            "81"
+          ]
+        },
+        {
+          "Name": "WingLvlUpList_S",
+          "Value": [
+            "5",
+            "10",
+            "20"
+          ]
+        },
+        {
+          "Name": "MoShenKillList_S",
+          "Value": [
+            "50",
+            "100",
+            "200",
+            "250"
+          ]
+        },
+        {
+          "Name": "ArenaRankList_S",
+          "Value": [
+            "1",
+            "2",
+            "3",
+            "10",
+            "20"
+          ]
+        },
+        {
+          "Name": "VIPLevelList_S",
+          "Value": [
+            "1",
+            "3",
+            "4",
+            "6",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12"
+          ]
+        }
+      ],
+      "Int32Data": {
+        "Name": "PvpRankUp_S",
+        "Value": "10"
+      }
+    },
+    "Charge": {
+      "Int32ListData": [
+        {
+          "Name": "TheFirstChargeGift",
+          "Value": [
+            "1001",
+            "1002"
+          ]
+        },
+        {
+          "Name": "QQFirstLoginGiftItemID",
+          "Value": [
+            "10",
+            "301",
+            "30"
+          ]
+        },
+        {
+          "Name": "QQFirstLoginGiftItemCount",
+          "Value": [
+            "8",
+            "1",
+            "6"
+          ]
+        },
+        {
+          "Name": "TheFirstChargeMultiplyList",
+          "Value": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ]
+        }
+      ],
+      "Int32Data": [
+        {
+          "Name": "MonthCardDailyGift",
+          "Value": "100"
+        },
+        {
+          "Name": "WeekCardDailyGift",
+          "Value": "80"
+        },
+        {
+          "Name": "QuarterCardDailyGift",
+          "Value": "200"
+        },
+        {
+          "Name": "QQSendToDesk",
+          "Value": "103"
+        },
+        {
+          "Name": "TheFirstChargeMultiplying",
+          "Value": "1"
+        },
+        {
+          "Name": "NormalChargeRate",
+          "Value": "0"
+        }
+      ]
+    },
+    "Melting": {
+      "Int32Data": [
+        {
+          "Name": "MeltingNote",
+          "Value": "100"
+        },
+        {
+          "Name": "UnopenedJobEquipMeltingProtectionLimitGrade",
+          "Value": "300"
+        }
+      ]
+    },
+    "ShareCodeGiftReward": {
+      "Int32Data": {
+        "Name": "ShareGiftNum",
+        "Value": "30"
+      },
+      "Int32ListData": {
+        "Name": "CodeGiftRewardList",
+        "Value": [
+          "0",
+          "10001",
+          "10002",
+          "10101",
+          "10102",
+          "10103",
+          "10104",
+          "10105",
+          "10003",
+          "10006",
+          "10016",
+          "10004",
+          "10007",
+          "10017",
+          "10005",
+          "10008",
+          "10018",
+          "20810",
+          "20820",
+          "10401",
+          "10402",
+          "10403",
+          "10404",
+          "10405",
+          "10406",
+          "10407",
+          "500",
+          "20410",
+          "20420",
+          "20430",
+          "20440",
+          "20450",
+          "20460",
+          "20470",
+          "20471",
+          "26001",
+          "26002",
+          "26003",
+          "26004",
+          "26005",
+          "2401",
+          "2402",
+          "2403",
+          "1050",
+          "10410",
+          "2411",
+          "2412",
+          "2413",
+          "4000001",
+          "4000002",
+          "4000003",
+          "4000004",
+          "28005"
+        ]
+      }
+    },
+    "Vip3GiftReward": {
+      "Int32Data": [
+        {
+          "Name": "Vip3GiftIsOpen",
+          "Value": "1"
+        },
+        {
+          "Name": "Vip3GiftStartTime",
+          "Value": "0"
+        },
+        {
+          "Name": "Vip3GiftEndTime",
+          "Value": "0"
+        },
+        {
+          "Name": "RewardVipLevel",
+          "Value": "3"
+        },
+        {
+          "Name": "Vip3GiftRechargeID",
+          "Value": "123"
+        },
+        {
+          "Name": "Vip3GiftRewardID",
+          "Value": "50050"
+        }
+      ]
+    },
+    "Exchange": {
+      "Int32Data": {
+        "Name": "ExchangeJinbi",
+        "Value": "10000"
+      }
+    },
+    "FastFightOffRes": {
+      "Int32Data": [
+        {
+          "Name": "Count",
+          "Value": "1"
+        },
+        {
+          "Name": "CostYuanbao",
+          "Value": "10"
+        },
+        {
+          "Name": "TimeOffTime",
+          "Value": "720000"
+        }
+      ]
+    },
+    "BuyJinbi": {
+      "Int32Data": [
+        {
+          "Name": "BuyJinbiFreeCount",
+          "Value": "2"
+        },
+        {
+          "Name": "MultiBuyJinbiCount",
+          "Value": "10"
+        }
+      ]
+    },
+    "Vip": {
+      "Int32ListData": [
+        {
+          "Name": "BuyJinbiCount",
+          "Value": [
+            "60",
+            "3",
+            "3",
+            "3"
+          ]
+        },
+        {
+          "Name": "VipDailyAwards",
+          "Value": [
+            "10031",
+            "10032",
+            "10033",
+            "10034",
+            "10035",
+            "10036",
+            "10037",
+            "10038",
+            "10039",
+            "10040",
+            "10041",
+            "10042",
+            "10043",
+            "10044",
+            "10045",
+            "10046"
+          ]
+        }
+      ],
+      "Int32Data": {
+        "Name": "GetVip3Gift",
+        "Value": "50050"
+      },
+      "FloatListData": [
+        {
+          "Name": "VipExpAdd",
+          "Value": [
+            "0.01",
+            "0.02",
+            "0.03",
+            "0.05",
+            "0.06",
+            "0.08",
+            "0.1",
+            "0.12",
+            "0.14",
+            "0.16",
+            "0.18",
+            "0.2",
+            "0.2",
+            "0.2",
+            "0.2"
+          ]
+        },
+        {
+          "Name": "VipJinbiAdd",
+          "Value": [
+            "0.01",
+            "0.02",
+            "0.03",
+            "0.05",
+            "0.06",
+            "0.08",
+            "0.1",
+            "0.12",
+            "0.14",
+            "0.16",
+            "0.18",
+            "0.2",
+            "0.2",
+            "0.2",
+            "0.2"
+          ]
+        }
+      ]
+    },
+    "Mojin": {
+      "Int32Data": [
+        {
+          "Name": "MojinNeedItemID",
+          "Value": "301"
+        },
+        {
+          "Name": "MultiMojinCount",
+          "Value": "10"
+        },
+        {
+          "Name": "MojinLatestRecordCount",
+          "Value": "2"
+        },
+        {
+          "Name": "BuyAnythingLatestRecordCount",
+          "Value": "2"
+        },
+        {
+          "Name": "BiChuIndex1",
+          "Value": "0"
+        },
+        {
+          "Name": "BiChuIndex2",
+          "Value": "0"
+        },
+        {
+          "Name": "BiChuIndex3",
+          "Value": "1"
+        },
+        {
+          "Name": "BiChuIndex4",
+          "Value": "0"
+        },
+        {
+          "Name": "BiChuIndex5",
+          "Value": "0"
+        },
+        {
+          "Name": "BiChuIndex6",
+          "Value": "1"
+        },
+        {
+          "Name": "PraiseItemTemp",
+          "Value": "46"
+        },
+        {
+          "Name": "PraiseItemNumb",
+          "Value": "7"
+        },
+        {
+          "Name": "PraiseLastTime",
+          "Value": "120000"
+        }
+      ],
+      "Int32ListData": [
+        {
+          "Name": "MojinIdItemLimitList",
+          "Value": "1"
+        },
+        {
+          "Name": "MojinShowList1",
+          "Value": [
+            "9104",
+            "9105",
+            "9106",
+            "9304",
+            "9305",
+            "9306"
+          ]
+        },
+        {
+          "Name": "MojinShowList2",
+          "Value": [
+            "9104",
+            "9105",
+            "9106",
+            "9304",
+            "9305",
+            "9306"
+          ]
+        },
+        {
+          "Name": "MojinShowList3",
+          "Value": [
+            "811",
+            "5",
+            "6",
+            "326",
+            "392",
+            "393",
+            "394",
+            "395",
+            "396",
+            "397",
+            "398",
+            "399",
+            "41301",
+            "42201",
+            "325",
+            "384",
+            "385",
+            "386",
+            "386",
+            "388",
+            "389",
+            "390",
+            "391",
+            "30",
+            "307",
+            "376",
+            "377",
+            "378",
+            "379",
+            "380",
+            "381",
+            "382",
+            "383"
+          ]
+        },
+        {
+          "Name": "MojinShowList4",
+          "Value": [
+            "353",
+            "9103",
+            "9102"
+          ]
+        },
+        {
+          "Name": "MojinShowList5",
+          "Value": [
+            "354",
+            "9104",
+            "9103"
+          ]
+        },
+        {
+          "Name": "MojinShowList6",
+          "Value": [
+            "9000",
+            "355",
+            "9105",
+            "9104"
+          ]
+        }
+      ]
+    },
+    "channelInfors": {
+      "StringData": [
+        {
+          "Name": "defaultQQ",
+          "Value": "讨论Q群：584743673"
+        },
+        {
+          "Name": "qqBrowserDefaultQQ",
+          "Value": "讨论Q群：498352847 客服Q：4000136226"
+        },
+        {
+          "Name": "wanbaDefaultQQ",
+          "Value": "讨论Q群：481924328 客服Q：4000136226"
+        },
+        {
+          "Name": "18337",
+          "Value": "QQ群：295980253"
+        },
+        {
+          "Name": "10950",
+          "Value": "QQ群：165119708"
+        },
+        {
+          "Name": "10080",
+          "Value": "QQ群：481924328"
+        },
+        {
+          "Name": "18265",
+          "Value": "QQ：800038605 微信：game_qd"
+        },
+        {
+          "Name": "18440",
+          "Value": "0"
+        },
+        {
+          "Name": "10319",
+          "Value": "0"
+        },
+        {
+          "Name": "10043",
+          "Value": "QQ群：146420571"
+        },
+        {
+          "Name": "18196",
+          "Value": "QQ群：428642312"
+        },
+        {
+          "Name": "10577",
+          "Value": "QQ群：496767628"
+        },
+        {
+          "Name": "18287",
+          "Value": "客服QQ：2853808283"
+        },
+        {
+          "Name": "10269",
+          "Value": "0"
+        },
+        {
+          "Name": "10675",
+          "Value": "客服QQ：1153757637"
+        },
+        {
+          "Name": "18365",
+          "Value": "QQ：800038605 微信：game_qd"
+        },
+        {
+          "Name": "20357",
+          "Value": "疯狂家族QQ群：364917946"
+        },
+        {
+          "Name": "20957",
+          "Value": "客服QQ：613307214 QQ群：135501572"
+        },
+        {
+          "Name": "18270",
+          "Value": "9G游戏客服：2074198326 微信9G游戏官方交流群：334626457"
+        },
+        {
+          "Name": "shareTitle10016",
+          "Value": "分享游戏得元宝"
+        },
+        {
+          "Name": "shareDesc10016",
+          "Value": "啦啦啦啦啦"
+        },
+        {
+          "Name": "shareImgTitle10016",
+          "Value": "西游神传"
+        },
+        {
+          "Name": "shareImgUrl10016",
+          "Value": "http://wx.1758.com/hlmy/cdkeys.htm?appKey="
+        },
+        {
+          "Name": "10016",
+          "Value": "QQ群：198596532"
+        },
+        {
+          "Name": "cdkeyUrl10016",
+          "Value": "http://wx.1758.com/hlmy/cdkeys.htm?appKey="
+        },
+        {
+          "Name": "appKey10016",
+          "Value": "ec5b1b3d9c75224f4afe1ff29d5dd130"
+        },
+        {
+          "Name": "sharePageInfo10016",
+          "Value": "非微信用户请关注<font color='0xffa016'>1758微游戏</font>后再进行分享\\n<font color='0x858585'>微信号1</font> <font color='0x00b0f2'>wx1758com</font>\\n<font color='0x858585'>微信号2</font> <font color='0x00b0f2'>com1758 </font>\\n<font color='0x858585'>客服QQ</font> <font color='0x00b0f2'>2660866818</font>"
+        },
+        {
+          "Name": "18255",
+          "Value": "QQ群：340057108 客服QQ：2843737172"
+        },
+        {
+          "Name": "cdkeyUrl18255",
+          "Value": "http://mp.weixin.qq.com/s?__biz=MzAwNzE2NjM5Mw==&mid=205611618&idx=1&sn=91f541eef90e16fe4a0591cc02a2f83f&scene=18&scene=5#rd"
+        },
+        {
+          "Name": "sharePageInfo18255",
+          "Value": "非微信用户请关注<font color='0xffa016'>爱微游</font>后再进行分享\\n<font color='0x858585'>微信号1</font> <font color='0x00b0f2'>ivgame</font>\\n<font color='0x858585'>客服QQ</font> <font color='0x00b0f2'>2843737172</font>"
+        },
+        {
+          "Name": "18342",
+          "Value": "QQ群：327492355"
+        },
+        {
+          "Name": "cdkeyUrl18342",
+          "Value": "http://url.weapp.me/u/n1WvjP"
+        },
+        {
+          "Name": "sharePageInfo18342",
+          "Value": "非微信用户请关注<font color='0xffa016'>番茄游戏</font>后再进行分享\\n<font color='0x858585'>微信号</font> <font color='0x00b0f2'>番茄游戏</font>"
+        },
+        {
+          "Name": "11044",
+          "Value": "QQ群：480193596"
+        },
+        {
+          "Name": "cdkeyUrl11044",
+          "Value": "http://mp.weixin.qq.com/s?__biz=MzA4MjAwNjQ2Mw==&mid=208346440&idx=1&sn=62ece6045a6e15229da04ee99aaf3e1d#rd"
+        },
+        {
+          "Name": "sharePageInfo11044",
+          "Value": "非微信用户请关注<font color='0xffa016'>68微游戏</font>后再进行分享\\n<font color='0x858585'>微信号</font> <font color='0x00b0f2'>play68com</font>\\n<font color='0x858585'>客服QQ</font> <font color='0x00b0f2'>2086377308</font>"
+        }
+      ],
+      "BoolData": {
+        "Name": "showShareAndCDKey",
+        "Value": "true"
+      }
+    },
+    "Moshen": {
+      "Int32ListData": [
+        {
+          "Name": "LifeCycleTimeList",
+          "Value": [
+            "180000",
+            "360000",
+            "720000"
+          ]
+        },
+        {
+          "Name": "EnergyTimeList",
+          "Value": [
+            "360000",
+            "360000",
+            "360000",
+            "360000",
+            "360000",
+            "360000",
+            "360000",
+            "360000",
+            "360000",
+            "360000"
+          ]
+        },
+        {
+          "Name": "PraiseReward",
+          "Value": [
+            "62301",
+            "62302",
+            "62303",
+            "62304",
+            "62305"
+          ]
+        },
+        {
+          "Name": "LevelList",
+          "Value": [
+            "0",
+            "60",
+            "120"
+          ]
+        },
+        {
+          "Name": "ColorGongxunBonusRate",
+          "Value": [
+            "0",
+            "10",
+            "20"
+          ]
+        },
+        {
+          "Name": "ColorExilePrice",
+          "Value": [
+            "10",
+            "20",
+            "30"
+          ]
+        }
+      ],
+      "Int32Data": [
+        {
+          "Name": "PraisedReward",
+          "Value": "62306"
+        },
+        {
+          "Name": "ShowDelayTime",
+          "Value": "180000"
+        },
+        {
+          "Name": "GongxunInit",
+          "Value": "100"
+        },
+        {
+          "Name": "HurtInit",
+          "Value": "3000"
+        },
+        {
+          "Name": "EnergyMax",
+          "Value": "10"
+        },
+        {
+          "Name": "EnergyInit",
+          "Value": "10"
+        },
+        {
+          "Name": "EnergyCurrentMax",
+          "Value": "99"
+        },
+        {
+          "Name": "DayBuyEnergy",
+          "Value": "50"
+        },
+        {
+          "Name": "FullAttackBuffID",
+          "Value": "101"
+        },
+        {
+          "Name": "BossKillBuffDelay",
+          "Value": "2000"
+        },
+        {
+          "Name": "BossKillBuffID",
+          "Value": "102"
+        },
+        {
+          "Name": "DisBenumbTime",
+          "Value": "3000"
+        }
+      ],
+      "FloatData": {
+        "Name": "GongXunFig",
+        "Value": "0.01"
+      }
+    },
+    "Compensate": {
+      "Int32Data": {
+        "Name": "FinalCreateTime",
+        "Value": "1447293600"
+      },
+      "Int32ListData": [
+        {
+          "Name": "CompensateLevelList",
+          "Value": [
+            "61",
+            "91",
+            "121",
+            "201"
+          ]
+        },
+        {
+          "Name": "CompensateRewardList",
+          "Value": [
+            "10011",
+            "10012",
+            "10013",
+            "10014"
+          ]
+        }
+      ],
+      "StringData": [
+        {
+          "Name": "CompensateTitStr0",
+          "Value": "数据修正补偿"
+        },
+        {
+          "Name": "CompensateConStr1",
+          "Value": "等级1~60：300元宝；500个强化石；100个升星石；符石宝箱40个；金币600000；紫色装备宝箱4个。翅膀等级将归零，翅膀累计等级将按照经验，全部折算成羽毛补偿给您。翅膀累计等级高于等于60星的，还将有额外的元宝补偿。"
+        },
+        {
+          "Name": "CompensateConStr2",
+          "Value": "等级61~90：300元宝；1000个强化石；200个升星石；符石宝箱60个；金币1200000；紫色装备宝箱4个。翅膀等级将归零，翅膀累计等级将按照经验，全部折算成羽毛补偿给您。翅膀累计等级高于等于60星的，还将有额外的元宝补偿。"
+        },
+        {
+          "Name": "CompensateConStr3",
+          "Value": "等级91~120：300元宝；2000个强化石；400个升星石；符石宝箱80个；金币1800000；紫色装备宝箱4个。翅膀等级将归零，翅膀累计等级将按照经验，全部折算成羽毛补偿给您。翅膀累计等级高于等于60星的，还将有额外的元宝补偿。"
+        },
+        {
+          "Name": "CompensateConStr4",
+          "Value": "等级>120：300元宝；5000个强化石；600个升星石；符石宝箱120个；金币2400000；紫色装备宝箱4个。翅膀等级将归零，翅膀累计等级将按照经验，全部折算成羽毛补偿给您。翅膀累计等级高于等于60星的，还将有额外的元宝补偿。"
+        }
+      ]
+    },
+    "Gift": {
+      "Int32Data": [
+        {
+          "Name": "PopActivityPanelLevelControl",
+          "Value": "15"
+        },
+        {
+          "Name": "Pay2UnlockSecondRole",
+          "Value": "357"
+        },
+        {
+          "Name": "Pay2UnlockThirdRole",
+          "Value": "358"
+        },
+        {
+          "Name": "GrowthFundNeedVipLv",
+          "Value": "2"
+        },
+        {
+          "Name": "NewGiftItemId",
+          "Value": "821"
+        }
+      ]
+    },
+    "Fight": {
+      "BoolData": {
+        "Name": "FPSEnabled",
+        "Value": "true"
+      },
+      "Int32Data": {
+        "Name": "FPSHitRateFix",
+        "Value": "125"
+      },
+      "FloatData": [
+        {
+          "Name": "DamageDecreaseRate",
+          "Value": "1000.0"
+        },
+        {
+          "Name": "DamageIncreaseRate",
+          "Value": "0.1"
+        }
+      ],
+      "FloatListData": [
+        {
+          "Name": "HitRate",
+          "Value": [
+            "0.85",
+            "5",
+            "1",
+            "90",
+            "90"
+          ]
+        },
+        {
+          "Name": "CritRate",
+          "Value": [
+            "0.05",
+            "1",
+            "1",
+            "65",
+            "40"
+          ]
+        },
+        {
+          "Name": "DefineRate",
+          "Value": [
+            "0",
+            "1",
+            "1",
+            "300",
+            "20"
+          ]
+        },
+        {
+          "Name": "AssRate",
+          "Value": [
+            "0",
+            "0.1",
+            "0",
+            "0",
+            "1"
+          ]
+        },
+        {
+          "Name": "BenumbRate",
+          "Value": [
+            "0",
+            "0.1",
+            "0",
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    "WorldLevel": {
+      "Int32Data": [
+        {
+          "Name": "WorldLevelStartTime",
+          "Value": "1000"
+        },
+        {
+          "Name": "WorldLevelTime",
+          "Value": "10000"
+        },
+        {
+          "Name": "WorldLevelGap",
+          "Value": "5"
+        },
+        {
+          "Name": "WorldLevelDayGap",
+          "Value": "60480000"
+        },
+        {
+          "Name": "WorldLevelBaseCoin",
+          "Value": "10000"
+        },
+        {
+          "Name": "WorldLevelBaseYuanbao",
+          "Value": "10"
+        },
+        {
+          "Name": "MinIntervalTime",
+          "Value": "360000"
+        },
+        {
+          "Name": "WorldLevelRecord",
+          "Value": "20"
+        },
+        {
+          "Name": "WorldLevelFactor1Max",
+          "Value": "600"
+        },
+        {
+          "Name": "WorldLevelJinbiFactor",
+          "Value": "200"
+        },
+        {
+          "Name": "WorldLevelYuanbaoFactor",
+          "Value": "500"
+        },
+        {
+          "Name": "WorldLevelGapUnit",
+          "Value": "5"
+        },
+        {
+          "Name": "WorldLevelGapUnitFactor",
+          "Value": "30"
+        },
+        {
+          "Name": "WorldLevelClearingFactor",
+          "Value": "15"
+        },
+        {
+          "Name": "WorldLevelInitExp",
+          "Value": "18000"
+        },
+        {
+          "Name": "WorldLevelInitTimeUpper",
+          "Value": "0"
+        },
+        {
+          "Name": "WorldLevelCommonTimeUpper",
+          "Value": "8640000"
+        },
+        {
+          "Name": "WorldLevelUpgradeMaxLevelFree",
+          "Value": "10"
+        },
+        {
+          "Name": "WorldLevelUpgradeMaxLevelJinbi",
+          "Value": "10"
+        },
+        {
+          "Name": "WorldLevelUpgradeMaxLevelYuanbao",
+          "Value": "10"
+        },
+        {
+          "Name": "WorldLevelRewardMinLevel",
+          "Value": "30"
+        }
+      ]
+    },
+    "Godplate": {
+      "Int32ListData": [
+        {
+          "Name": "GodplateBenedictionPercentLowerBound",
+          "Value": [
+            "0",
+            "30",
+            "50",
+            "80",
+            "95",
+            "100"
+          ]
+        },
+        {
+          "Name": "GodplateSuccessPercentOdds",
+          "Value": [
+            "0",
+            "5",
+            "20",
+            "60",
+            "80",
+            "100"
+          ]
+        },
+        {
+          "Name": "GodplateUnlockNeedStars",
+          "Value": [
+            "1",
+            "5",
+            "10",
+            "15",
+            "30"
+          ]
+        }
+      ],
+      "Int32Data": [
+        {
+          "Name": "GodplateMorrowFactor",
+          "Value": "100"
+        },
+        {
+          "Name": "GodplateDisgraFactor",
+          "Value": "80"
+        },
+        {
+          "Name": "GodplateEssence2Benediction",
+          "Value": "10"
+        },
+        {
+          "Name": "GodplateEssence2Jinbi",
+          "Value": "10000"
+        },
+        {
+          "Name": "GodplateCriticalTimes",
+          "Value": "2"
+        },
+        {
+          "Name": "GodplateCriticalOdds",
+          "Value": "25"
+        },
+        {
+          "Name": "GodplateCrateFactor",
+          "Value": "365"
+        }
+      ]
+    },
+    "EndlessHole": {
+      "Int32Data": [
+        {
+          "Name": "EndlessHoleBossColor",
+          "Value": "3"
+        },
+        {
+          "Name": "EndlessHoleRankNum",
+          "Value": "20"
+        },
+        {
+          "Name": "EndlessHoleRankLow",
+          "Value": "1"
+        },
+        {
+          "Name": "EndlessHoleFreeResetTimes",
+          "Value": "1"
+        },
+        {
+          "Name": "EndlessHoleResetBaseFactor",
+          "Value": "10"
+        },
+        {
+          "Name": "EndlessHoleResetBossStage",
+          "Value": "5"
+        }
+      ]
+    },
+    "RedEnvelope": {
+      "Int32Data": [
+        {
+          "Name": "RedOverTime",
+          "Value": "180000"
+        },
+        {
+          "Name": "DailyLootLimit",
+          "Value": "200"
+        },
+        {
+          "Name": "BuyRedGradeLimit",
+          "Value": "30"
+        },
+        {
+          "Name": "LootRedGradeLimit",
+          "Value": "15"
+        },
+        {
+          "Name": "RedBalanceTime",
+          "Value": "7920000"
+        },
+        {
+          "Name": "RedNoticeInterval",
+          "Value": "200"
+        },
+        {
+          "Name": "RedTimerClear",
+          "Value": "8640000"
+        },
+        {
+          "Name": "RedNoticeMaxLog",
+          "Value": "20"
+        },
+        {
+          "Name": "RedNoticeRepeat",
+          "Value": "3"
+        },
+        {
+          "Name": "CleanRedTime",
+          "Value": "2"
+        }
+      ]
+    },
+    "StoryConfig": {
+      "Int32Data": {
+        "Name": "StoryWaitTimeToJump",
+        "Value": "10000"
+      }
+    },
+    "StoreUpdate": {
+      "Int32Data": [
+        {
+          "Name": "RareRandomNum",
+          "Value": "2"
+        },
+        {
+          "Name": "NormalRandomNum",
+          "Value": "6"
+        }
+      ]
+    },
+    "MapConfig": {
+      "BoolData": {
+        "Name": "isMapSourceSingle",
+        "Value": "true"
+      },
+      "Int32Data": [
+        {
+          "Name": "RamdomMapSourceCount",
+          "Value": "8"
+        },
+        {
+          "Name": "MapWidth",
+          "Value": "512"
+        },
+        {
+          "Name": "MapHeight",
+          "Value": "512"
+        },
+        {
+          "Name": "MapTileWidth",
+          "Value": "768"
+        },
+        {
+          "Name": "MapTileHeight",
+          "Value": "1027"
+        },
+        {
+          "Name": "MapTileRows",
+          "Value": "1"
+        },
+        {
+          "Name": "CameraHeightOffset",
+          "Value": "-40"
+        }
+      ],
+      "FloatData": {
+        "Name": "MapScale",
+        "Value": "1.25"
+      }
+    },
+    "RegisterReward": {
+      "Int32Data": [
+        {
+          "Name": "RegisterRewardIndex",
+          "Value": "52"
+        },
+        {
+          "Name": "RegisterrewardID",
+          "Value": "28005"
+        }
+      ]
+    },
+    "Encounter": {
+      "Int32Data": [
+        {
+          "Name": "MonsterCount",
+          "Value": "1"
+        },
+        {
+          "Name": "FighterModelID1",
+          "Value": "300001"
+        },
+        {
+          "Name": "FighterModelID2",
+          "Value": "300002"
+        },
+        {
+          "Name": "DummyID",
+          "Value": "300001"
+        }
+      ]
+    },
+    "TaskTip": {
+      "Int32Data": [
+        {
+          "Name": "TaskTipPopTime",
+          "Value": "500"
+        },
+        {
+          "Name": "TaskTipHideTime",
+          "Value": "200"
+        }
+      ]
+    },
+    "AddExpBuff": {
+      "Int32Data": [
+        {
+          "Name": "AddExpBuffActivityId",
+          "Value": "120"
+        },
+        {
+          "Name": "AddExpBuffPercent",
+          "Value": "300"
+        },
+        {
+          "Name": "AddExpBuffContinueTime",
+          "Value": "180000"
+        },
+        {
+          "Name": "ExpBuffCompensationPercent",
+          "Value": "70"
+        },
+        {
+          "Name": "MaxExpBuffCompensationCount",
+          "Value": "3"
+        },
+        {
+          "Name": "ExpBuffCompensationBasePrice",
+          "Value": "50"
+        }
+      ],
+      "Int32ListData": {
+        "Name": "StartAndEndAddExpBuffTime",
+        "Value": [
+          "4320000",
+          "5040000",
+          "6120000",
+          "6840000"
+        ]
+      }
+    },
+    "ShareGift": {
+      "Int32Data": [
+        {
+          "Name": "ActivityId",
+          "Value": "101"
+        },
+        {
+          "Name": "ShareGiftCount",
+          "Value": "1"
+        }
+      ],
+      "Int32ListData": {
+        "Name": "ChargeMoney",
+        "Value": [
+          "100",
+          "500"
+        ]
+      }
+    },
+    "MonthCard": {
+      "FloatData": [
+        {
+          "Name": "MonthCardExpAdd",
+          "Value": "0.05"
+        },
+        {
+          "Name": "MonthCardJinBiAdd",
+          "Value": "0.05"
+        }
+      ]
+    },
+    "QuarterCard": {
+      "FloatData": [
+        {
+          "Name": "QuarterCardExpAdd",
+          "Value": "0.1"
+        },
+        {
+          "Name": "QuarterCardJinBiAdd",
+          "Value": "0.1"
+        }
+      ]
+    },
+    "QuickLvUp": {
+      "Int32Data": [
+        {
+          "Name": "QuickLvUpOpenLevel",
+          "Value": "11"
+        },
+        {
+          "Name": "QuickLvUpBasePrice",
+          "Value": "5"
+        },
+        {
+          "Name": "QuickLvUpRecordMaxTimes",
+          "Value": "50"
+        },
+        {
+          "Name": "QuickLvUpFreeMaxLevel",
+          "Value": "30"
+        }
+      ]
+    },
+    "StrengthLock": {
+      "Int32ListData": {
+        "Name": "StrengthOpenLevel",
+        "Value": [
+          "5",
+          "5",
+          "5",
+          "5",
+          "5",
+          "5",
+          "5",
+          "5"
+        ]
+      }
+    },
+    "MoneySymbol": {
+      "StringData": {
+        "Name": "PayMoneySymbol",
+        "Value": "￥"
+      }
+    },
+    "SuperVipGift": {
+      "Int32Data": {
+        "Name": "isOpenSuperVipGift",
+        "Value": "0"
+      }
+    },
+    "StartServerRankReward": {
+      "Int32Data": [
+        {
+          "Name": "StartServerRankRewardMinID",
+          "Value": "3000"
+        },
+        {
+          "Name": "StartServerRankRewardMaxID",
+          "Value": "3355"
+        }
+      ]
+    },
+    "ExchangeSystem": {
+      "Int32Data": {
+        "Name": "ExchangeListSize",
+        "Value": "100"
+      }
+    },
+    "LuckyDraw": {
+      "Int32Data": [
+        {
+          "Name": "MaxLuckyDrawTimes",
+          "Value": "13"
+        },
+        {
+          "Name": "MaxLuckyDrawFreeTimes",
+          "Value": "1"
+        },
+        {
+          "Name": "LuckyDrawOneOpenPrice",
+          "Value": "50"
+        },
+        {
+          "Name": "LuckyDrawFiveOpenPrice",
+          "Value": "300"
+        },
+        {
+          "Name": "LuckyDrawTenOpenPrice",
+          "Value": "700"
+        },
+        {
+          "Name": "LuckyDrawOneOpenJingHua",
+          "Value": "0"
+        },
+        {
+          "Name": "LuckyDrawFiveOpenJingHua",
+          "Value": "0"
+        },
+        {
+          "Name": "LuckyDrawTenOpenJingHua",
+          "Value": "0"
+        },
+        {
+          "Name": "LuckyDrawRefreshPrice",
+          "Value": "500"
+        },
+        {
+          "Name": "OpenFiveTimes",
+          "Value": "2"
+        },
+        {
+          "Name": "OpenTenTimes",
+          "Value": "3"
+        },
+        {
+          "Name": "effectInteralTime",
+          "Value": "100"
+        },
+        {
+          "Name": "effectCircleNum",
+          "Value": "2"
+        }
+      ]
+    },
+    "ServerTimer": {
+      "Int32Data": {
+        "Name": "ServerLogTimer",
+        "Value": "12000"
+      }
+    },
+    "PVPEx": {
+      "Int32Data": [
+        {
+          "Name": "PVPPKMaxValue",
+          "Value": "200"
+        },
+        {
+          "Name": "PVPPKAdditionValue",
+          "Value": "20"
+        },
+        {
+          "Name": "PVPInitCupCount",
+          "Value": "0"
+        },
+        {
+          "Name": "PVPMediumLevel",
+          "Value": "20"
+        },
+        {
+          "Name": "PVPStrongPercentWorldLevel",
+          "Value": "75"
+        },
+        {
+          "Name": "PVPRefreshRivalTimeDiff",
+          "Value": "120000"
+        },
+        {
+          "Name": "PVPMaxUseRivalCount",
+          "Value": "3"
+        },
+        {
+          "Name": "PVPMaxUpLevel",
+          "Value": "10"
+        },
+        {
+          "Name": "PVPGoldRewardCoefficient1",
+          "Value": "1000"
+        },
+        {
+          "Name": "PVPGoldRewardCoefficient2",
+          "Value": "20"
+        },
+        {
+          "Name": "PVPExpRewardCoefficient1",
+          "Value": "1000"
+        },
+        {
+          "Name": "PVPExpRewardCoefficient2",
+          "Value": "200"
+        },
+        {
+          "Name": "PVPMaxPVPLogCount",
+          "Value": "20"
+        },
+        {
+          "Name": "PVPSubPkValueTime",
+          "Value": "360000"
+        },
+        {
+          "Name": "PVPSubPkValue",
+          "Value": "30"
+        },
+        {
+          "Name": "PVPResetRankWeekDay",
+          "Value": "1"
+        },
+        {
+          "Name": "BuyPVPRivalNeedYuanbao",
+          "Value": "10"
+        },
+        {
+          "Name": "PVPFreeReplaceRivalCount",
+          "Value": "1"
+        },
+        {
+          "Name": "PVPReplaceRivalCostYuanBao",
+          "Value": "10"
+        },
+        {
+          "Name": "BuyPVPRivalParam1",
+          "Value": "2"
+        },
+        {
+          "Name": "BuyPVPRivalParam2",
+          "Value": "10"
+        },
+        {
+          "Name": "BuyPVPRivalParam3",
+          "Value": "10"
+        },
+        {
+          "Name": "PVPLogMaskHeroLevel",
+          "Value": "30"
+        }
+      ],
+      "Int32ListData": [
+        {
+          "Name": "PVPPowerLevelScore",
+          "Value": [
+            "30",
+            "20",
+            "10"
+          ]
+        },
+        {
+          "Name": "PVPPkValueList",
+          "Value": [
+            "55",
+            "100"
+          ]
+        },
+        {
+          "Name": "PVPMultiKillCountList",
+          "Value": [
+            "2",
+            "3",
+            "5",
+            "8",
+            "10"
+          ]
+        },
+        {
+          "Name": "PVPMultiKillCountPublicNoteMessageIdList",
+          "Value": [
+            "9263",
+            "9264",
+            "9265",
+            "9266",
+            "9267"
+          ]
+        }
+      ],
+      "FloatListData": {
+        "Name": "PVPPkValueNameBonusList",
+        "Value": [
+          "3.0",
+          "1.5",
+          "1.0"
+        ]
+      }
+    },
+    "ReadEquip": {
+      "Int32ListData": {
+        "Name": "RedEquipBonusList",
+        "Value": [
+          "-1",
+          "3",
+          "2",
+          "-1",
+          "1",
+          "-1",
+          "0",
+          "-1"
+        ]
+      }
+    },
+    "AutoChallenge": {
+      "Int32Data": {
+        "Name": "AutoChallengeOpenLevel",
+        "Value": "10"
+      }
+    },
+    "WorldBoss": {
+      "Int32Data": [
+        {
+          "Name": "WorldBossSyncPlayerMax",
+          "Value": "7"
+        },
+        {
+          "Name": "OpenWorldBossLevelLimit",
+          "Value": "30"
+        },
+        {
+          "Name": "WorldBossHurtListMax",
+          "Value": "5"
+        },
+        {
+          "Name": "WorldBossEnergyMax",
+          "Value": "10"
+        },
+        {
+          "Name": "WorldBossEnergyRecoveryTime",
+          "Value": "3600"
+        },
+        {
+          "Name": "WorldBossCDTime",
+          "Value": "60"
+        }
+      ]
+    },
+    "LoginNotice": {
+      "Int32Data": [
+        {
+          "Name": "NoticeTimeCD",
+          "Value": "3600"
+        },
+        {
+          "Name": "NoticeMinRank",
+          "Value": "5"
+        }
+      ],
+      "StringData": {
+        "Name": "NoticeFormat",
+        "Value": "欢迎%s第%s名%s的%s进入游戏"
+      },
+      "StringListData": [
+        {
+          "Name": "RankListName",
+          "Value": [
+            "战力排行榜",
+            "等级排行榜",
+            "竞技排行榜",
+            "翅膀排行榜"
+          ]
+        },
+        {
+          "Name": "RankName",
+          "Value": [
+            "一",
+            "二",
+            "三",
+            "四",
+            "五"
+          ]
+        },
+        {
+          "Name": "RankFirstTitle",
+          "Value": [
+            "战无不胜",
+            "武林至尊",
+            "傲视群雄",
+            "翼飞冲天"
+          ]
+        }
+      ]
+    },
+    "Statistics": {
+      "StringData": [
+        {
+          "Name": "Contents",
+          "Value": "statistics"
+        },
+        {
+          "Name": "FileName",
+          "Value": "game."
+        },
+        {
+          "Name": "AppId",
+          "Value": "sfcea1ad201e3fcd943f4a20251e5107f"
+        },
+        {
+          "Name": "CurrencyType",
+          "Value": "CNY"
+        },
+        {
+          "Name": "Channel",
+          "Value": "天橡"
+        }
+      ],
+      "StringListData": [
+        {
+          "Name": "EventList",
+          "Value": [
+            "http://svrapi.gdatacube.net/sp/rest/device/active?",
+            "http://svrapi.gdatacube.net/sp/rest/account/create?",
+            "http://svrapi.gdatacube.net/sp/rest/role/create?",
+            "http://svrapi.gdatacube.net/sp/rest/level/up?",
+            "http://svrapi.gdatacube.net/sp/rest/online/time?",
+            "http://svrapi.gdatacube.net/sp/rest/payment/pay?",
+            "http://svrapi.gdatacube.net/sp/rest/coin/get?",
+            "http://svrapi.gdatacube.net/sp/rest/coin/use?",
+            "http://svrapi.gdatacube.net/sp/rest/item/get?",
+            "http://svrapi.gdatacube.net/sp/rest/item/use?",
+            "http://svrapi.gdatacube.net/sp/rest/task/end?"
+          ]
+        },
+        {
+          "Name": "ShopType",
+          "Value": [
+            "商城",
+            "竞技场商店",
+            "精元商店",
+            "密穴商店",
+            "神秘商店",
+            "帮派商店",
+            "红包商店"
+          ]
+        },
+        {
+          "Name": "ShopConsumeType",
+          "Value": [
+            "金币",
+            "元宝",
+            "帮派贡献",
+            "红包",
+            "精元",
+            "声望",
+            "道具"
+          ]
+        },
+        {
+          "Name": "ItemType",
+          "Value": [
+            "材料",
+            "装备",
+            "转生材料",
+            "金币卡",
+            "元宝卡",
+            "经验卡",
+            "宝箱",
+            "精元",
+            "精力",
+            "充值点",
+            "声望",
+            "TOTAL"
+          ]
+        },
+        {
+          "Name": "ItemUseReason",
+          "Value": [
+            "GM操作",
+            "合成",
+            "宝石强化",
+            "强化-强化",
+            "升星",
+            "特戒进阶",
+            "翅膀激活",
+            "翅膀培养",
+            "宝石升级",
+            "宠物训练",
+            "宠物特殊训练",
+            "扫荡精锐试炼BOSS",
+            "扫荡普通装备副本",
+            "扫荡精英装备副本",
+            "扫荡境界副本",
+            "装备突破",
+            "转生熔炼",
+            "神铸",
+            "角色改名",
+            "合成红装",
+            "进入境界副本",
+            "进入炼狱BOSS副本",
+            "进入精英炼狱BOSS副本",
+            "进入装备副本",
+            "进入精英装备副本",
+            "精元商城购物",
+            "竞技场商城购物",
+            "祈愿",
+            "开箱子",
+            "摸金",
+            "兑换",
+            "红包商店购物",
+            "购买红包",
+            "商店刷新",
+            "交易系统"
+          ]
+        },
+        {
+          "Name": "ItemGetReason",
+          "Value": [
+            "GM操作",
+            "签到(月)",
+            "签到(周)",
+            "月光宝盒",
+            "遭遇战(pvp)",
+            "打怪获得",
+            "离线获得",
+            "装备转生",
+            "抢红包",
+            "商城购买",
+            "秘宝购买(未发现被使用)",
+            "秘宝批量购买(未发现被使用)",
+            "商店购买(未发现被使用)",
+            "公会商店购买",
+            "精元商店购买",
+            "竞技场商店购买",
+            "红包商店购买",
+            "密穴商店购买",
+            "VIP神秘商店购买",
+            "合成",
+            "突破",
+            "装备熔炼",
+            "转生熔炼",
+            "兑换",
+            "合成红装",
+            "寻宝",
+            "活动兑换",
+            "任务",
+            "兑换码",
+            "怪物攻城功勋奖励",
+            "怪物攻城赞赏",
+            "怪物攻城召唤",
+            "怪物胜利",
+            "攻城怪物击杀",
+            "活动礼包",
+            "首充礼包",
+            "Vip3礼包",
+            "Vip奖励",
+            "购买Vip礼包",
+            "成就",
+            "季卡",
+            "VIP每天奖励",
+            "成就树奖励"
+          ]
+        },
+        {
+          "Name": "YinBiReason",
+          "Value": [
+            "GM操作",
+            "兑换码礼包",
+            "怪物攻城功勋奖励",
+            "怪物攻城赞赏",
+            "攻城怪物召唤",
+            "攻城胜利",
+            "攻城怪物击杀",
+            "成就",
+            "任务",
+            "活动礼包",
+            "首充礼包",
+            "Vip3礼包",
+            "Vip奖励",
+            "购买Vip礼包",
+            "升级技能",
+            "强化.强化",
+            "强化特戒",
+            "升星",
+            "进阶特戒",
+            "翅膀培养",
+            "升级宝石",
+            "宠物训练",
+            "打怪获得",
+            "合成",
+            "购买转生材料",
+            "背包空间不足卖出物品",
+            "装备副本",
+            "精英装备副本",
+            "离线奖励",
+            "兑换金币",
+            "神铸",
+            "合成红色装备",
+            "邮件",
+            "帮派捐献",
+            "购买帮派物品",
+            "创建帮派",
+            "使用道具",
+            "抢红包",
+            "竞技场奖励",
+            "遭遇战奖励",
+            "世界等级",
+            "商城",
+            "摇钱树",
+            "竞技场商城购物",
+            "寻宝",
+            "活动兑换",
+            "红包商店购买",
+            "商店刷新",
+            "交易系统",
+            "购买秘宝",
+            "批量购买秘宝",
+            "季卡",
+            "世界BOSS",
+            "金库副本",
+            "神铸副本",
+            "VIP每天奖励",
+            "成就树奖励"
+          ]
+        },
+        {
+          "Name": "YuanBaoReason",
+          "Value": [
+            "GM操作",
+            "兑换码礼包",
+            "怪物攻城功勋奖励",
+            "怪物攻城赞赏",
+            "怪物攻城召唤",
+            "攻城胜利",
+            "攻城怪物击杀",
+            "成就",
+            "任务",
+            "活动礼包",
+            "首充礼包",
+            "Vip3礼包",
+            "Vip奖励",
+            "购买Vip礼包",
+            "充值",
+            "翅膀培养",
+            "购买竞技场次数",
+            "竞技场刷新时间",
+            "签到补签",
+            "分享礼包",
+            "月光宝盒",
+            "月光宝盒刷新",
+            "怪物攻城购买精力",
+            "宠物特殊训练",
+            "请求遭遇战对手",
+            "刷新遭遇战对手",
+            "解锁角色",
+            "清除技能升级时间",
+            "攻城怪物放逐",
+            "购买转生材料",
+            "重置无底洞",
+            "进入精锐试炼副本",
+            "进入精英炼狱副本",
+            "进入境界副本",
+            "进入装备副本",
+            "进入精英装备副本",
+            "扩展背包",
+            "兑换道具",
+            "兑换金币",
+            "加速",
+            "合成红色装备",
+            "邮件",
+            "更换帮派旗帜",
+            "更会帮派名称",
+            "帮派捐献",
+            "帮派自由捐献",
+            "购买帮派物品",
+            "创建帮派",
+            "使用道具",
+            "抢红包",
+            "购买活动礼包",
+            "世界等级",
+            "补偿经验",
+            "月卡",
+            "周卡",
+            "商城",
+            "摇钱树",
+            "竞技场商城购物",
+            "寻宝",
+            "活动兑换",
+            "红包商店购买",
+            "购买红包",
+            "商店刷新",
+            "购买秘宝",
+            "批量购买秘宝",
+            "购买商店物品",
+            "季卡",
+            "VIP每天奖励",
+            "成就树奖励"
+          ]
+        },
+        {
+          "Name": "GuildPointReason",
+          "Value": [
+            "GM操作",
+            "兑换码礼包",
+            "怪物攻城功勋奖励",
+            "怪物攻城赞赏",
+            "怪物攻城召唤",
+            "攻城胜利",
+            "攻城怪物击杀",
+            "成就",
+            "任务",
+            "活动礼包",
+            "首充礼包",
+            "Vip3礼包",
+            "Vip奖励",
+            "购买Vip礼包",
+            "帮派捐献",
+            "帮派自由捐献",
+            "购买帮派物品",
+            "购买红包",
+            "商店刷新",
+            "季卡",
+            "VIP每天奖励",
+            "成就树奖励"
+          ]
+        },
+        {
+          "Name": "JingYuanReason",
+          "Value": [
+            "GM操作",
+            "使用道具",
+            "商城"
+          ]
+        },
+        {
+          "Name": "ShengWangReason",
+          "Value": [
+            "GM操作",
+            "邮件",
+            "竞技场PK"
+          ]
+        },
+        {
+          "Name": "RedPointReason",
+          "Value": [
+            "GM操作",
+            "兑换物品",
+            "购买红包"
+          ]
+        },
+        {
+          "Name": "TaskType",
+          "Value": [
+            "未知",
+            "成就任务",
+            "日常任务",
+            "帮派任务"
+          ]
+        },
+        {
+          "Name": "CustomList",
+          "Value": "金币消耗"
+        }
+      ],
+      "Int32Data": [
+        {
+          "Name": "LogOnlineTimeInterval",
+          "Value": "18000"
+        },
+        {
+          "Name": "CacheSzie",
+          "Value": "10000"
+        },
+        {
+          "Name": "Platform",
+          "Value": "2"
+        }
+      ]
+    },
+    "Milestone": {
+      "Int32Data": {
+        "Name": "MilestoneTreeDay",
+        "Value": "60480000"
+      }
+    },
+    "employee": {
+      "Int32Data": {
+        "Name": "ZiZhiUpLevelExp",
+        "Value": "200"
+      },
+      "Int32ListData": [
+        {
+          "Name": "ZiZhiUpLevelItem",
+          "Value": [
+            "142",
+            "148",
+            "154",
+            "160"
+          ]
+        },
+        {
+          "Name": "ZiZhiUpLevelBaoDian",
+          "Value": [
+            "0",
+            "0",
+            "244",
+            "245",
+            "246",
+            "247",
+            "248",
+            "249"
+          ]
+        }
+      ]
+    },
+    "scene": {
+      "Int32Data": {
+        "Name": "ResetSceneBossItemId",
+        "Value": "9"
+      }
+    },
+    "NormalBaseConfig": {
+      "Int32Data": [
+        {
+          "Name": "ShiWuCdTime",
+          "Value": "180000"
+        },
+        {
+          "Name": "ShiWuResetItemId",
+          "Value": "8"
+        },
+        {
+          "Name": "JingYingResetItemId",
+          "Value": "194"
+        },
+        {
+          "Name": "GuangJieResetItemId",
+          "Value": "13"
+        },
+        {
+          "Name": "GuangJieCdTime",
+          "Value": "180000"
+        },
+        {
+          "Name": "GuangJieZiYuan",
+          "Value": "20000"
+        },
+        {
+          "Name": "GuangJieZiYuanMax",
+          "Value": "90"
+        },
+        {
+          "Name": "GuangJieYunShiMax",
+          "Value": "100"
+        },
+        {
+          "Name": "GuangJieYunShiCd",
+          "Value": "90000"
+        },
+        {
+          "Name": "YunShiYuanbaoAdd",
+          "Value": "10"
+        },
+        {
+          "Name": "MiracleJingYingRate",
+          "Value": "1500"
+        },
+        {
+          "Name": "MiracleJingYing",
+          "Value": "10"
+        },
+        {
+          "Name": "MiracleEmpLevelUp1",
+          "Value": "160"
+        },
+        {
+          "Name": "MiracleEmpLevelUp2",
+          "Value": "2000"
+        },
+        {
+          "Name": "MiracleEmpLevelUp3",
+          "Value": "3"
+        },
+        {
+          "Name": "MiracleMoBai1",
+          "Value": "100"
+        },
+        {
+          "Name": "MiracleMoBai2",
+          "Value": "1500"
+        },
+        {
+          "Name": "MiracleZiShiExp",
+          "Value": "1500"
+        },
+        {
+          "Name": "MiracleZiShiRate",
+          "Value": "2"
+        },
+        {
+          "Name": "MiracleHongYan1",
+          "Value": "7"
+        },
+        {
+          "Name": "MiracleHongYan2",
+          "Value": "1500"
+        },
+        {
+          "Name": "FirstChargeAwardId",
+          "Value": "193"
+        }
+      ],
+      "Int32ListData": [
+        {
+          "Name": "ShiWuAwardPrams",
+          "Value": [
+            "1",
+            "2",
+            "3",
+            "186",
+            "187",
+            "188"
+          ]
+        },
+        {
+          "Name": "YunShiYuanBao",
+          "Value": [
+            "60",
+            "80",
+            "100"
+          ]
+        },
+        {
+          "Name": "YunShiYuanBaoConsume",
+          "Value": [
+            "10",
+            "30",
+            "50"
+          ]
+        }
+      ],
+      "StringData": [
+        {
+          "Name": "NameRepetition",
+          "Value": "名字重复"
+        },
+        {
+          "Name": "NameUnlawful",
+          "Value": "名字不合法"
+        },
+        {
+          "Name": "WechatOrQQUnlawful",
+          "Value": "微信或QQ不合法"
+        },
+        {
+          "Name": "NameNotUse",
+          "Value": "此名字不可使用"
+        }
+      ]
+    },
+    "GirlFriend": {
+      "Int32ListData": [
+        {
+          "Name": "ShangCiConsume",
+          "Value": [
+            "105",
+            "106",
+            "103",
+            "104"
+          ]
+        },
+        {
+          "Name": "ShangCiAward",
+          "Value": [
+            "1",
+            "2",
+            "1",
+            "2"
+          ]
+        },
+        {
+          "Name": "ActivateAttr",
+          "Value": [
+            "10",
+            "20",
+            "50",
+            "100",
+            "150",
+            "200"
+          ]
+        },
+        {
+          "Name": "CheckGirlFriendByFightPower",
+          "Value": [
+            "50000",
+            "200000",
+            "500000",
+            "1000000"
+          ]
+        }
+      ],
+      "Int32Data": [
+        {
+          "Name": "ChuanHuanCdTime",
+          "Value": "180000"
+        },
+        {
+          "Name": "ChuanHuanResetItemId",
+          "Value": "12"
+        },
+        {
+          "Name": "ChongXingYuanBao",
+          "Value": "10"
+        },
+        {
+          "Name": "ChongXingYuanBaoMax",
+          "Value": "1000"
+        },
+        {
+          "Name": "ChongXingAddChildProb",
+          "Value": "4000"
+        }
+      ]
+    },
+    "Children": {
+      "Int32Data": [
+        {
+          "Name": "PeiYangCdTime",
+          "Value": "1080000"
+        },
+        {
+          "Name": "PeiYangAddExp",
+          "Value": "10"
+        },
+        {
+          "Name": "YinYuanTiQinTimeout",
+          "Value": "25920000"
+        },
+        {
+          "Name": "PeiYangResetItemId",
+          "Value": "14"
+        },
+        {
+          "Name": "ChildLevelUpParam1",
+          "Value": "500"
+        },
+        {
+          "Name": "YinYuanZhaoQinListCd",
+          "Value": "360000"
+        },
+        {
+          "Name": "YinYuanZhaoQinListNum",
+          "Value": "3"
+        },
+        {
+          "Name": "YinYuanZhaoQinRefYuanbao",
+          "Value": "100"
+        }
+      ],
+      "Int32ListData": {
+        "Name": "AdultChildStatus",
+        "Value": [
+          "1000",
+          "3000",
+          "5000",
+          "10000",
+          "15000",
+          "20000",
+          "-1"
+        ]
+      },
+      "FloatData": {
+        "Name": "ChildLevelUpParam2",
+        "Value": "0.625"
+      }
+    },
+    "Rank": {
+      "Int32Data": [
+        {
+          "Name": "ActivityRankResetTime",
+          "Value": "7560000"
+        },
+        {
+          "Name": "FightPowerRankNum",
+          "Value": "100"
+        },
+        {
+          "Name": "SceneRankNum",
+          "Value": "100"
+        },
+        {
+          "Name": "QinMiDuRankNum",
+          "Value": "100"
+        },
+        {
+          "Name": "TimeLimitFPRankNum",
+          "Value": "200"
+        },
+        {
+          "Name": "WaBaoZangRankNum",
+          "Value": "100"
+        },
+        {
+          "Name": "FubenPointRankNum",
+          "Value": "100"
+        },
+        {
+          "Name": "Fuben2RankNum",
+          "Value": "100"
+        },
+        {
+          "Name": "NomalRankRefreshTimeDiff",
+          "Value": "6000"
+        }
+      ],
+      "Int32ListData": [
+        {
+          "Name": "NomalRankRefreshTime",
+          "Value": [
+            "720000",
+            "1440000",
+            "2160000",
+            "2880000",
+            "3600000",
+            "4320000",
+            "5040000",
+            "5760000",
+            "6480000",
+            "7200000",
+            "7920000",
+            "8638800"
+          ]
+        },
+        {
+          "Name": "MoBaiNormalRankAward",
+          "Value": [
+            "50",
+            "20",
+            "10"
+          ]
+        }
+      ]
+    },
+    "Fuben": {
+      "Int32Data": [
+        {
+          "Name": "FubenTime1",
+          "Value": "12"
+        },
+        {
+          "Name": "FubenTime2",
+          "Value": "14"
+        },
+        {
+          "Name": "FubenTime3",
+          "Value": "20"
+        },
+        {
+          "Name": "FubenTime4",
+          "Value": "21"
+        },
+        {
+          "Name": "Fuben1NoticeCount",
+          "Value": "50"
+        },
+        {
+          "Name": "Fuben2RankCount",
+          "Value": "50"
+        },
+        {
+          "Name": "Fuben2KillerRankCount",
+          "Value": "100"
+        },
+        {
+          "Name": "Fuben2PointParam",
+          "Value": "1200000"
+        }
+      ]
+    },
+    "School": {
+      "Int32Data": [
+        {
+          "Name": "School1LearnCd",
+          "Value": "1080000"
+        },
+        {
+          "Name": "School1AddBookExp",
+          "Value": "10"
+        },
+        {
+          "Name": "School1AddSkillExp",
+          "Value": "100"
+        }
+      ]
+    },
+    "Dinner": {
+      "Int32Data": [
+        {
+          "Name": "DinnerStoreShowCount",
+          "Value": "9"
+        },
+        {
+          "Name": "DinnerStoreCdTime",
+          "Value": "720000"
+        },
+        {
+          "Name": "DinnerStoreRefMax",
+          "Value": "10"
+        },
+        {
+          "Name": "DinnerStoreRefYuanbao",
+          "Value": "10"
+        },
+        {
+          "Name": "DinnerMaxTimes",
+          "Value": "3"
+        },
+        {
+          "Name": "DinnerDurTime",
+          "Value": "8640000"
+        },
+        {
+          "Name": "DinnerSendListCount",
+          "Value": "6"
+        },
+        {
+          "Name": "ExpandDinnerTimesItemId",
+          "Value": "263"
+        },
+        {
+          "Name": "Dinner1MaxCount",
+          "Value": "10"
+        },
+        {
+          "Name": "Dinner2MaxCount",
+          "Value": "50"
+        },
+        {
+          "Name": "Dinner1CreateYuanbao",
+          "Value": "100"
+        },
+        {
+          "Name": "Dinner2CreateYuanbao",
+          "Value": "500"
+        },
+        {
+          "Name": "Dinner1CreateItemId1",
+          "Value": "18"
+        },
+        {
+          "Name": "Dinner1CreateItemId2",
+          "Value": "19"
+        },
+        {
+          "Name": "Dinner2CreateItemId1",
+          "Value": "20"
+        },
+        {
+          "Name": "Dinner2CreateItemId2",
+          "Value": "21"
+        },
+        {
+          "Name": "Dinner1CreateItemCount1",
+          "Value": "5"
+        },
+        {
+          "Name": "Dinner1CreateItemCount2",
+          "Value": "5"
+        },
+        {
+          "Name": "Dinner2CreateItemCount1",
+          "Value": "5"
+        },
+        {
+          "Name": "Dinner2CreateItemCount2",
+          "Value": "5"
+        },
+        {
+          "Name": "Dinner1EnterYuanbao",
+          "Value": "100"
+        },
+        {
+          "Name": "Dinner2EnterYuanbao",
+          "Value": "500"
+        },
+        {
+          "Name": "Dinner3EnterItemId",
+          "Value": "185"
+        },
+        {
+          "Name": "Dinner3EnterItemCount",
+          "Value": "1"
+        },
+        {
+          "Name": "Dinner4EnterItemId",
+          "Value": "184"
+        },
+        {
+          "Name": "Dinner4EnterItemCount",
+          "Value": "1"
+        },
+        {
+          "Name": "Dinner1EnterScore",
+          "Value": "100"
+        },
+        {
+          "Name": "Dinner1EnterLootAwardId",
+          "Value": "25"
+        },
+        {
+          "Name": "Dinner2EnterScore",
+          "Value": "500"
+        },
+        {
+          "Name": "Dinner2EnterLootAwardId",
+          "Value": "26"
+        },
+        {
+          "Name": "Dinner3EnterScore",
+          "Value": "1000"
+        },
+        {
+          "Name": "Dinner3EnterLootAwardId",
+          "Value": "26"
+        },
+        {
+          "Name": "Dinner4EnterScore",
+          "Value": "-1000"
+        }
+      ]
+    },
+    "Guild": {
+      "StringData": [
+        {
+          "Name": "GuildPublicNotePrefab",
+          "Value": "欢迎各路武林豪杰加入！"
+        },
+        {
+          "Name": "GUildPrivateNotePrefab",
+          "Value": "齐心协力，一统江湖！"
+        }
+      ],
+      "Int32Data": [
+        {
+          "Name": "SysChangeGuildMasterTime",
+          "Value": "129600000"
+        },
+        {
+          "Name": "ChangeGuildMasterTime",
+          "Value": "25920000"
+        },
+        {
+          "Name": "ChangeGuildMasterCont",
+          "Value": "10000"
+        },
+        {
+          "Name": "RefreshGuildCache",
+          "Value": "1000"
+        },
+        {
+          "Name": "GuildBuildYuanbaoCost",
+          "Value": "2000"
+        },
+        {
+          "Name": "LeaveGuildSelfCoolDown",
+          "Value": "720000"
+        },
+        {
+          "Name": "LeaveGuildNotSelfCoolDown",
+          "Value": "6000"
+        },
+        {
+          "Name": "ChangeFlagCostYuanbao",
+          "Value": "0"
+        },
+        {
+          "Name": "ChangeGuildNameCostYuanbao",
+          "Value": "500"
+        },
+        {
+          "Name": "GuildResetTime",
+          "Value": "1800000"
+        },
+        {
+          "Name": "FreeContrubuteYuanbaoOneDayMax",
+          "Value": "6000"
+        },
+        {
+          "Name": "EachFreeContrubuteYuanbaoNum",
+          "Value": "50"
+        },
+        {
+          "Name": "GuildPartTotalNum",
+          "Value": "3"
+        },
+        {
+          "Name": "GuildBigContributeContinueTime",
+          "Value": "180000"
+        },
+        {
+          "Name": "GuildBigContributeOnceHaveTimes",
+          "Value": "15"
+        }
+      ],
+      "FloatData": [
+        {
+          "Name": "PlayerFreeGuildContrubuteYuanbaoRate",
+          "Value": "0.1"
+        },
+        {
+          "Name": "PlayerFreePersonContrubuteYuanbaoRate",
+          "Value": "0.5"
+        }
+      ],
+      "Int32ListData": {
+        "Name": "GuildBigContributeStart",
+        "Value": [
+          "8500",
+          "1500"
+        ]
+      }
+    }
+  }
+}
